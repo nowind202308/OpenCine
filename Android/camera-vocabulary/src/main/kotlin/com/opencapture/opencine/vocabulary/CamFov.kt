@@ -30,6 +30,9 @@ object CamFov {
     const val SLEW_WIDE = 300
     /** iOS `CameraSetMailbox.zoomCoalesceHold`; Mimo pinch is 20 Hz. */
     const val SLIDER_COALESCE_MS = 50L
+
+    /** Held zoom-in names a target past 1× so a D-Log2 body hops to D-Log before moving. */
+    const val HELD_ZOOM_HOP_FACTOR = 2.0
     /** Camera can pause HEVC while the lens slews. Same 4 s as AF-C. */
     const val VIDEO_GRACE_SEC = 4.0
 

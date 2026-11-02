@@ -3520,6 +3520,31 @@ class PocketCameraSession(
         fireZoom(CameraCommands.zoomStop(), announce = false, name = "Zoom stop")
     }
 
+    /**
+     * Mimo held zoom, `01 <speed> <direction> 00` with the seven native speeds `48`–`4E`
+     * ([speed] 1..7): the camera ramps the lens itself, so every speed moves smoothly (Pocket 3
+     * and Pocket 4 Pro captures). The caller refreshes it while the move lasts and ends with
+     * [endZoomRate]. D-Log2 rejects every zoom SET, so zooming in hops to D-Log first as pinch
+     * does; false while that hop, or the recording colour lock, holds the write back.
+     */
+    fun setZoomRate(speed: Int, increasing: Boolean): Boolean {
+        if (!supportsZoom) return false
+        val target = if (increasing) CamFov.HELD_ZOOM_HOP_FACTOR else (_status.value.zoomFactor ?: 1.0)
+        if (blockZoomColorHopIfRecording(target)) return false
+        if (increasing) dropDLog2ForZoom(target)
+        if (CamFov.holdZoomWrite(target, _status.value.colorMode, zoomColorHopPending)) return false
+        val rate = (0x47 + speed.coerceIn(1, 7)).toByte()
+        val direction: Byte = if (increasing) 0x01 else 0x00
+        fireZoom(byteArrayOf(0x01, rate, direction, 0x00), announce = false, name = "Zoom held")
+        return true
+    }
+
+    /** Stops a held zoom; a D-Log2 body that hopped returns to D-Log2 once back at 1×. */
+    fun endZoomRate() {
+        setZoomStop()
+        restoreDLog2IfNeeded(_status.value.zoomFactor ?: 1.0)
+    }
+
     fun updateZoomPinch(magnification: Double) {
         if (!supportsZoom) return
         if (_gimbalMoveRunning.value) cancelProgrammedMove()
