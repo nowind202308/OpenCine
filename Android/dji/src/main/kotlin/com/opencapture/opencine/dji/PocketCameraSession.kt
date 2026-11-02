@@ -4459,9 +4459,14 @@ class PocketCameraSession(
         }
         val cam = connectedCamera?.model
         val family = cam?.family ?: "pocket"
+        // Same profile the colour picker uses: a body that never sends `camcap_color_mode`
+        // (Pocket 3) has no advertised list, and the standard profile then allowed nothing,
+        // so every colour SET was dropped without a note.
         val allowed =
-            CaptureWheels.colorWheel(family, live.availableColorModes, cam?.name ?: "")
-                .map { it.first }
+            CaptureWheels.colorWheel(
+                family, live.availableColorModes, cam?.name ?: "",
+                cam?.captureProfile?.labels ?: com.opencapture.opencine.vocabulary.CameraLabelProfile.standard,
+            ).map { it.first }
         if (mode !in allowed) return
         if (_gimbalMoveRunning.value) cancelProgrammedMove()
         if (mode == CameraCommands.COLOR_DLOG2) {
