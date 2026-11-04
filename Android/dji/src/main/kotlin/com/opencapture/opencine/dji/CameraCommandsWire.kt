@@ -389,6 +389,20 @@ fun CameraCommands.gimbalTimedTarget(
     var native = target.nativePitchDeg ?: return null
     val liveNative = live.nativePitchDeg ?: return null
     if (reference != null) native = wire.target(native, reference) ?: return null
+    // DIAG (fork, diag/motion-pocket3): Pocket 3 compact firmware reads absolute yaw in a world
+    // frame (joint ≈ c − target, sign inverted, c follows the handle and is not in the attitude
+    // frame). Send the remaining move as a relative step (mode 0x04) instead: yaw −Δjoint, pitch
+    // Δnative (the raw pitch convention that worked for absolute targets without the 180° offset).
+    if (wire == NativePitchWire.CONTINUOUS) {
+        val dYaw = -com.opencapture.opencine.motion.GimbalPath.wrapAngle(target.yawDeg - live.yawDeg)
+        val dPitch = com.opencapture.opencine.motion.GimbalPath.wrapAngle(native - liveNative)
+        if (!dYaw.isFinite() || !dPitch.isFinite() || kotlin.math.abs(dPitch) > NativePitchWire.MAX_OFFSET_DEG ||
+            duration !in 0.1..25.5) return null
+        fun tenthRel(value: Double): Int =
+            java.lang.Math.copySign(kotlin.math.floor(kotlin.math.abs(value * 10) + 0.5), value).toInt()
+        return u16LE(tenthRel(dYaw)) + u16LE(0) + u16LE(tenthRel(dPitch)) +
+            byteArrayOf(0x04, tenthRel(duration).toByte())
+    }
     val sent = wire.wireDeg(native, liveNative) ?: return null
     return gimbalTimedTarget(target.copy(nativePitchDeg = sent), duration, wire)
 }
