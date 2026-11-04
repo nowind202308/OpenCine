@@ -5154,6 +5154,49 @@ class PocketCameraSession(
         datalink?.noteGimbalStick(axes.first, axes.second)
     }
 
+    @Volatile private var headTrackLoggedAt = 0L
+
+    /**
+     * Fork (feat/headtrack-f2): steer the gimbal toward a head-tracking pose. [yawDeg] is pan on the
+     * reported joint arc, [pitchDeg] display tilt (look-up positive); the caller clamps both to its
+     * safe limits. Each call closes [gain] of the gap from the live attitude over [duration] seconds:
+     * a relative step on the Pocket 3 compact layout, an absolute target elsewhere
+     * ([CameraCommands.gimbalTimedTarget]). `false` when the gimbal cannot take it now.
+     */
+    fun headTrackToward(yawDeg: Double, pitchDeg: Double, gain: Double = 0.6, duration: Double = 0.2): Boolean {
+        if (!yawDeg.isFinite() || !pitchDeg.isFinite()) return false
+        if (!hasGimbal || _phase.value != ConnectionPhase.LIVE || needsForegroundRecover || holdsMonitor ||
+            !firstPictureSettled || isLiveVideoStale() || _gimbalMoveRunning.value || gimbalStickHeld) return false
+        val link = datalink ?: return false
+        val live = link.latestNativeProgramFeedback ?: return false
+        if (SystemClock.elapsedRealtimeNanos() / 1e9 - live.receivedAt !in 0.0..0.3) return false
+        val liveNative = live.pose.nativePitchDeg ?: return false
+        val dYaw = gain.coerceIn(0.05, 1.0) * (yawDeg - live.pose.yawDeg)
+        val dPitch = gain.coerceIn(0.05, 1.0) * (pitchDeg - live.pose.pitchDeg)
+        if (abs(dYaw) < 0.3 && abs(dPitch) < 0.3) return true
+        val target = live.pose.copy(
+            yawDeg = live.pose.yawDeg + dYaw,
+            pitchDeg = live.pose.pitchDeg + dPitch,
+            nativePitchDeg = liveNative - dPitch,
+        )
+        val payload = CameraCommands.gimbalTimedTarget(target, live.pose, live.nativePitch, null, duration)
+            ?: return false
+        link.noteNativeCurveTarget(payload)
+        val nowMs = SystemClock.elapsedRealtime()
+        if (nowMs - headTrackLoggedAt >= 500) {
+            headTrackLoggedAt = nowMs
+            DjiLog.log("info", "gimbal", "headTrack",
+                "headtrack want yaw=${"%.1f".format(java.util.Locale.ROOT, yawDeg)} pitch=${"%.1f".format(java.util.Locale.ROOT, pitchDeg)}" +
+                    " live yaw=${live.pose.yawDeg} pitch=${live.pose.pitchDeg} wire=${live.nativePitch}")
+        }
+        return true
+    }
+
+    /** Fork (feat/headtrack-f2): drop any queued head-tracking step. */
+    fun headTrackStop() {
+        datalink?.clearNativeCurveTargets()
+    }
+
     fun endGimbalStick() {
         if (moveDriving) return
         if (_gimbalMoveRunning.value) {
