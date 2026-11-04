@@ -1297,14 +1297,14 @@ class DatalinkDriver(
                     }
                 }
             }
-            // DIAG (fork, diag/motion-pocket3): attitude frame length and head bytes, at most 1 Hz.
+            // DIAG (fork, diag/motion-pocket3): attitude frame length and all bytes, at most 1 Hz.
             if (frame.cmdSet == 0x04 && frame.cmdId == 0x05) {
                 val nowMs = SystemClock.elapsedRealtime()
                 if (nowMs - diagAttitudeLoggedAt >= 1000) {
                     diagAttitudeLoggedAt = nowMs
                     DjiLog.log("info", "gimbal", "diagAttitude",
                         "diag attitude len=${frame.payload.size} head=" +
-                            frame.payload.take(24).joinToString("") { java.lang.String.format(java.util.Locale.ROOT, "%02x", it) })
+                            frame.payload.toList().joinToString("") { java.lang.String.format(java.util.Locale.ROOT, "%02x", it) })
                 }
             }
             NativeGimbalFeedback.from(frame, SystemClock.elapsedRealtimeNanos() / 1e9,
