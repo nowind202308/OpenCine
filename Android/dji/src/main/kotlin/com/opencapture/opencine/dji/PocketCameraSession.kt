@@ -5155,6 +5155,12 @@ class PocketCameraSession(
     }
 
     @Volatile private var headTrackLoggedAt = 0L
+    // Unresponsive-gimbal guard: when the gimbal stops following for a while, back off instead of
+    // piling on more steps (two feed stalls followed a gimbal that ignored head-tracking steps).
+    private var headTrackStuckSince = 0L
+    private var headTrackStuckYaw = 0.0
+    private var headTrackStuckPitch = 0.0
+    private var headTrackPausedUntil = 0L
 
     /**
      * Fork (feat/headtrack-f2): steer the gimbal toward a head-tracking pose. [yawDeg] is pan on the
@@ -5163,7 +5169,13 @@ class PocketCameraSession(
      * a relative step on the Pocket 3 compact layout, an absolute target elsewhere
      * ([CameraCommands.gimbalTimedTarget]). `false` when the gimbal cannot take it now.
      */
-    fun headTrackToward(yawDeg: Double, pitchDeg: Double, gain: Double = 0.6, duration: Double = 0.2): Boolean {
+    fun headTrackToward(
+        yawDeg: Double,
+        pitchDeg: Double,
+        gain: Double = 0.6,
+        duration: Double = 0.2,
+        maxStepDeg: Double = Double.POSITIVE_INFINITY,
+    ): Boolean {
         if (!yawDeg.isFinite() || !pitchDeg.isFinite()) return false
         if (!hasGimbal || _phase.value != ConnectionPhase.LIVE || needsForegroundRecover || holdsMonitor ||
             !firstPictureSettled || isLiveVideoStale() || _gimbalMoveRunning.value || gimbalStickHeld) return false
@@ -5171,8 +5183,34 @@ class PocketCameraSession(
         val live = link.latestNativeProgramFeedback ?: return false
         if (SystemClock.elapsedRealtimeNanos() / 1e9 - live.receivedAt !in 0.0..0.3) return false
         val liveNative = live.pose.nativePitchDeg ?: return false
-        val dYaw = gain.coerceIn(0.05, 1.0) * (yawDeg - live.pose.yawDeg)
-        val dPitch = gain.coerceIn(0.05, 1.0) * (pitchDeg - live.pose.pitchDeg)
+        val nowMs = SystemClock.elapsedRealtime()
+        if (nowMs < headTrackPausedUntil) return false
+        val errYaw = yawDeg - live.pose.yawDeg
+        val errPitch = pitchDeg - live.pose.pitchDeg
+        if (abs(errYaw) < HEAD_TRACK_STUCK_ERR_DEG && abs(errPitch) < HEAD_TRACK_STUCK_ERR_DEG) {
+            headTrackStuckSince = 0L
+        } else if (headTrackStuckSince == 0L ||
+            abs(live.pose.yawDeg - headTrackStuckYaw) > 1.0 || abs(live.pose.pitchDeg - headTrackStuckPitch) > 1.0) {
+            headTrackStuckSince = nowMs
+            headTrackStuckYaw = live.pose.yawDeg
+            headTrackStuckPitch = live.pose.pitchDeg
+        } else if (nowMs - headTrackStuckSince >= HEAD_TRACK_STUCK_MS) {
+            headTrackStuckSince = 0L
+            headTrackPausedUntil = nowMs + HEAD_TRACK_BACKOFF_MS
+            link.clearNativeCurveTargets()
+            DjiLog.log("notice", "gimbal", "headTrack",
+                "headtrack gimbal unresponsive: want yaw=${"%.1f".format(java.util.Locale.ROOT, yawDeg)} " +
+                    "pitch=${"%.1f".format(java.util.Locale.ROOT, pitchDeg)} live yaw=${live.pose.yawDeg} " +
+                    "pitch=${live.pose.pitchDeg}; pause ${HEAD_TRACK_BACKOFF_MS}ms")
+            return false
+        }
+        var dYaw = gain.coerceIn(0.05, 1.0) * errYaw
+        var dPitch = gain.coerceIn(0.05, 1.0) * errPitch
+        val len = kotlin.math.hypot(dYaw, dPitch)
+        if (maxStepDeg > 0 && len > maxStepDeg) {
+            dYaw *= maxStepDeg / len
+            dPitch *= maxStepDeg / len
+        }
         if (abs(dYaw) < 0.3 && abs(dPitch) < 0.3) return true
         val target = live.pose.copy(
             yawDeg = live.pose.yawDeg + dYaw,
@@ -5182,12 +5220,12 @@ class PocketCameraSession(
         val payload = CameraCommands.gimbalTimedTarget(target, live.pose, live.nativePitch, null, duration)
             ?: return false
         link.noteNativeCurveTarget(payload)
-        val nowMs = SystemClock.elapsedRealtime()
         if (nowMs - headTrackLoggedAt >= 500) {
             headTrackLoggedAt = nowMs
             DjiLog.log("info", "gimbal", "headTrack",
                 "headtrack want yaw=${"%.1f".format(java.util.Locale.ROOT, yawDeg)} pitch=${"%.1f".format(java.util.Locale.ROOT, pitchDeg)}" +
-                    " live yaw=${live.pose.yawDeg} pitch=${live.pose.pitchDeg} wire=${live.nativePitch}")
+                    " live yaw=${live.pose.yawDeg} pitch=${live.pose.pitchDeg} step=${"%.1f".format(java.util.Locale.ROOT, len)}" +
+                    " cap=${"%.1f".format(java.util.Locale.ROOT, maxStepDeg)} wire=${live.nativePitch}")
         }
         return true
     }
@@ -6231,3 +6269,8 @@ class PocketCameraSession(
 }
 
 private fun hexBytes(bytes: ByteArray): String = bytes.joinToString(" ") { "%02x".format(it.toInt() and 0xFF) }
+
+// Fork (feat/headtrack-f2): unresponsive-gimbal guard for head tracking.
+private const val HEAD_TRACK_STUCK_ERR_DEG = 6.0
+private const val HEAD_TRACK_STUCK_MS = 1_000L
+private const val HEAD_TRACK_BACKOFF_MS = 1_500L
