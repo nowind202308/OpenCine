@@ -5225,7 +5225,7 @@ class PocketCameraSession(
             DjiLog.log("info", "gimbal", "headTrack",
                 "headtrack want yaw=${"%.1f".format(java.util.Locale.ROOT, yawDeg)} pitch=${"%.1f".format(java.util.Locale.ROOT, pitchDeg)}" +
                     " live yaw=${live.pose.yawDeg} pitch=${live.pose.pitchDeg} step=${"%.1f".format(java.util.Locale.ROOT, len)}" +
-                    " cap=${"%.1f".format(java.util.Locale.ROOT, maxStepDeg)} wire=${live.nativePitch}")
+                    " cap=${"%.1f".format(java.util.Locale.ROOT, maxStepDeg)} dur=$duration wire=${live.nativePitch}")
         }
         return true
     }
