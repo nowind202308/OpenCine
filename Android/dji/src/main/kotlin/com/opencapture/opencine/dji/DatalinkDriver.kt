@@ -206,6 +206,7 @@ class DatalinkDriver(
     private val nativeFeedbackEpoch = AtomicLong(0)
     private val ingressMetrics = DatalinkIngressMetrics(nativeFeedbackEpoch)
     private val nativeProgramFeedback = AtomicReference<Pair<Long, NativeGimbalFeedback>?>(null)
+    @Volatile private var diagAttitudeLoggedAt = 0L
     private val nativeZoomStatus = AtomicReference<Pair<Long, NativeProgramZoomObservation>?>(null)
     private val nativeZoomOwned = AtomicBoolean(false)
     private val lastNativeZoomWriteAt = AtomicLong(0)
@@ -225,13 +226,22 @@ class DatalinkDriver(
             val payload = feedback?.let {
                 CameraCommands.gimbalTimedTarget(target, it.pose, it.nativePitch, null, duration)
             }
-            if (closed.get() || payload == null || !nativeGimbalTargetIsSafe(target,
-                    feedback, SystemClock.elapsedRealtimeNanos() / 1e9)) false else {
+            val safe = feedback != null && nativeGimbalTargetIsSafe(target,
+                feedback, SystemClock.elapsedRealtimeNanos() / 1e9)
+            val sent = if (closed.get() || payload == null || !safe) false else {
                 sendDumlLocked(0x04, CameraCommands.CMD_GIMBAL_ANGLE, payload, 0,
                     CameraCommands.RX_GIMBAL, CameraCommands.SENDER_APP)
             }
+            // DIAG (fork, diag/motion-pocket3): one line per native target for Pocket 3 Motion Control.
+            DjiLog.log("info", "gimbal", "diagTarget",
+                "diag target yaw=${target.yawDeg} pitch=${target.pitchDeg} native=${target.nativePitchDeg} dur=$duration" +
+                    " | live yaw=${feedback?.pose?.yawDeg} pitch=${feedback?.pose?.pitchDeg}" +
+                    " native=${feedback?.pose?.nativePitchDeg} wire=${feedback?.nativePitch}" +
+                    " | payload=${payload?.joinToString("") { java.lang.String.format(java.util.Locale.ROOT, "%02x", it) }} safe=$safe sent=$sent")
+            sent
         },
         stop = {
+            DjiLog.log("info", "gimbal", "diagStop", "diag stop")
             if (!closed.get()) sendDumlLocked(0x04, CameraCommands.CMD_GIMBAL_ANGLE,
                 CameraCommands.gimbalTimedStop(), 0, CameraCommands.RX_GIMBAL, CameraCommands.SENDER_APP)
         },
@@ -1285,6 +1295,16 @@ class DatalinkDriver(
                         val status = current?.takeIf { it.first == receiveEpoch }?.second ?: NativeProgramZoomObservation()
                         receiveEpoch to status.observing(frame, cameraModel, SystemClock.elapsedRealtimeNanos() / 1e9)
                     }
+                }
+            }
+            // DIAG (fork, diag/motion-pocket3): attitude frame length and head bytes, at most 1 Hz.
+            if (frame.cmdSet == 0x04 && frame.cmdId == 0x05) {
+                val nowMs = SystemClock.elapsedRealtime()
+                if (nowMs - diagAttitudeLoggedAt >= 1000) {
+                    diagAttitudeLoggedAt = nowMs
+                    DjiLog.log("info", "gimbal", "diagAttitude",
+                        "diag attitude len=${frame.payload.size} head=" +
+                            frame.payload.take(24).joinToString("") { java.lang.String.format(java.util.Locale.ROOT, "%02x", it) })
                 }
             }
             NativeGimbalFeedback.from(frame, SystemClock.elapsedRealtimeNanos() / 1e9,
