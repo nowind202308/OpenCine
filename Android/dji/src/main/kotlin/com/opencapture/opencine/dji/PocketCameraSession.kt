@@ -5230,6 +5230,43 @@ class PocketCameraSession(
         return true
     }
 
+    /**
+     * Fork (feat/headtrack-f2): live gimbal pose for head tracking as (yaw, display pitch) in degrees,
+     * or null when there is no fresh attitude (older than 0.3 s).
+     */
+    fun headTrackLivePose(): Pair<Double, Double>? {
+        val live = datalink?.latestNativeProgramFeedback ?: return null
+        if (SystemClock.elapsedRealtimeNanos() / 1e9 - live.receivedAt !in 0.0..0.3) return null
+        return live.pose.yawDeg to live.pose.pitchDeg
+    }
+
+    @Volatile private var headTrackStickLoggedAt = 0L
+
+    /**
+     * Fork (feat/headtrack-f2): drive the gimbal through the joystick channel (the one the on-screen
+     * stick uses) with a linear throw in −1…1: [x] pan (right positive), [y] tilt. [note] is logged
+     * at 2 Hz for tuning.
+     */
+    fun headTrackStick(x: Double, y: Double, note: String) {
+        if (!x.isFinite() || !y.isFinite()) return
+        updateGimbalStick(x.toFloat().coerceIn(-1f, 1f), y.toFloat().coerceIn(-1f, 1f), linear = true)
+        val nowMs = SystemClock.elapsedRealtime()
+        if (nowMs - headTrackStickLoggedAt >= 500) {
+            headTrackStickLoggedAt = nowMs
+            DjiLog.log("info", "gimbal", "headTrack", "headtrack stick $note")
+        }
+    }
+
+    /** Fork (feat/headtrack-f2): leave head-tracking joystick drive. */
+    fun headTrackStickEnd() {
+        if (gimbalStickHeld) endGimbalStick()
+    }
+
+    /** Fork (feat/headtrack-f2): log one head-tracking event (mode change, sign flip). */
+    fun headTrackNote(text: String) {
+        DjiLog.log("notice", "gimbal", "headTrack", "headtrack $text")
+    }
+
     /** Fork (feat/headtrack-f2): drop any queued head-tracking step. */
     fun headTrackStop() {
         datalink?.clearNativeCurveTargets()
