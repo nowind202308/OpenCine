@@ -5211,7 +5211,7 @@ class PocketCameraSession(
             dYaw *= maxStepDeg / len
             dPitch *= maxStepDeg / len
         }
-        if (abs(dYaw) < 0.3 && abs(dPitch) < 0.3) return true
+        if (abs(errYaw) < HEAD_TRACK_DEADBAND_DEG && abs(errPitch) < HEAD_TRACK_DEADBAND_DEG) return true
         val target = live.pose.copy(
             yawDeg = live.pose.yawDeg + dYaw,
             pitchDeg = live.pose.pitchDeg + dPitch,
@@ -6272,5 +6272,6 @@ private fun hexBytes(bytes: ByteArray): String = bytes.joinToString(" ") { "%02x
 
 // Fork (feat/headtrack-f2): unresponsive-gimbal guard for head tracking.
 private const val HEAD_TRACK_STUCK_ERR_DEG = 6.0
+private const val HEAD_TRACK_DEADBAND_DEG = 1.0
 private const val HEAD_TRACK_STUCK_MS = 1_000L
 private const val HEAD_TRACK_BACKOFF_MS = 1_500L
