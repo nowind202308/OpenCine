@@ -402,7 +402,12 @@ fun CameraCommands.gimbalTimedTarget(
         kotlin.math.abs(duration * 10 - kotlin.math.round(duration * 10)) >= 1e-6) return null
     fun tenth(value: Double): Int =
         java.lang.Math.copySign(kotlin.math.floor(kotlin.math.abs(value * 10) + 0.5), value).toInt()
-    return u16LE(tenth(yawDeg)) + u16LE(0) + u16LE(tenth(nativePitchDeg)) +
+    // DIAG (fork, diag/motion-pocket3): on the 49-byte Pocket 3 firmware a native target near 180°
+    // turned the gimbal backward even when it equalled the live pose. Hypothesis: that firmware
+    // reads the pitch field without the 180° offset (the raw attitude @20 value, native − 180).
+    val wirePitch = if (wire == NativePitchWire.CONTINUOUS)
+        com.opencapture.opencine.motion.GimbalPath.wrapAngle(nativePitchDeg - 180.0) else nativePitchDeg
+    return u16LE(tenth(yawDeg)) + u16LE(0) + u16LE(tenth(wirePitch)) +
         byteArrayOf(0x05, tenth(duration).toByte())
 }
 
