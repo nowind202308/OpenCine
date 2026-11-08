@@ -5218,6 +5218,39 @@ public final class com/opencapture/monitorui/ReviewLiveValues$Companion {
 	public final fun getSIMULATED ()Lcom/opencapture/monitorui/ReviewLiveValues;
 }
 
+public final class com/opencapture/monitorui/l10n/LocalizedTextKt {
+	public static final fun Text-Nvy7gAk (Ljava/lang/String;Landroidx/compose/ui/Modifier;JLandroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun Text-Z58ophY (Landroidx/compose/ui/text/AnnotatedString;Landroidx/compose/ui/Modifier;JLandroidx/compose/foundation/text/TextAutoSize;JLandroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/ui/text/font/FontFamily;JLandroidx/compose/ui/text/style/TextDecoration;Landroidx/compose/ui/text/style/TextAlign;JIZIILjava/util/Map;Lkotlin/jvm/functions/Function1;Landroidx/compose/ui/text/TextStyle;Landroidx/compose/runtime/Composer;III)V
+	public static final fun localized (Ljava/lang/String;Landroidx/compose/runtime/Composer;I)Ljava/lang/String;
+}
+
+public final class com/opencapture/monitorui/l10n/UiCatalog {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/opencapture/monitorui/l10n/UiCatalog;
+	public final fun register (I)V
+	public final fun table (Landroid/content/Context;)Lcom/opencapture/monitorui/l10n/UiTable;
+	public final fun translate (Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class com/opencapture/monitorui/l10n/UiTable {
+	public static final field $stable I
+	public static final field Companion Lcom/opencapture/monitorui/l10n/UiTable$Companion;
+	public final fun isEmpty ()Z
+	public final fun translate (Ljava/lang/String;)Ljava/lang/String;
+}
+
+public final class com/opencapture/monitorui/l10n/UiTable$Companion {
+	public final fun of (Ljava/lang/String;)Lcom/opencapture/monitorui/l10n/UiTable;
+	public final fun parse (Ljava/lang/String;Ljava/util/Map;Ljava/util/List;)V
+}
+
+public final class com/opencapture/monitorui/l10n/UiTemplate {
+	public static final field $stable I
+	public final fun apply (Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
+	public final fun getEnglish ()Ljava/lang/String;
+	public final fun getLiteralLength ()I
+}
+
 public final class com/opencapture/monitorui/settings/MonitorAccountSettingsKt {
 	public static final fun MonitorAccountSettings (Ljava/lang/String;Ljava/lang/String;Lcom/opencapture/monitorui/settings/MonitorAccountState;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLandroidx/compose/runtime/Composer;III)V
 }
