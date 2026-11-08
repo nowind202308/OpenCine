@@ -22,7 +22,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -42,6 +41,7 @@ import com.opencapture.monitorui.LocalMonitorInspectorHelp
 import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 
 private val ChromeShape = RoundedCornerShape(12.dp)
 private fun chromeStyle(size: Float, weight: FontWeight, mono: Boolean = false): TextStyle =

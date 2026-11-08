@@ -1,12 +1,12 @@
 package com.opencapture.monitorui.settings
 
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 
 /** The remote shutter switch's test tag (A2-32), for the apps' settings UI tests. */
 const val REMOTE_SHUTTER_TAG: String = "monitor.settings.controls.remoteShutter"

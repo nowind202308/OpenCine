@@ -1,5 +1,6 @@
 package com.opencapture.opencine.appkit
 
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.core.RouteKind
 import com.opencapture.opencine.core.SavedCamera
 import android.content.Intent
@@ -42,7 +43,6 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect

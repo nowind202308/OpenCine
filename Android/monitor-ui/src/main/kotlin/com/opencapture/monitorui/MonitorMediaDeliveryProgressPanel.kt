@@ -13,7 +13,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicText
 import androidx.compose.foundation.text.TextAutoSize
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -27,6 +26,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.opencapture.monitorui.l10n.Text
+import com.opencapture.monitorui.l10n.localized
 
 /** Expanded chrome; the host retains expansion lifetime, placement and the delivery task. */
 @Composable
@@ -117,7 +118,7 @@ private fun ProgressStatus(
         } else Box(Modifier.size(13.dp)) { destinationIcon() }
         Column(Modifier.weight(1f)) {
             // Shrinks before it truncates so the download speed stays readable on compact widths.
-            BasicText(value.status, style = MonitorTypography.text(12f, FontWeight.SemiBold).copy(color = MonitorPalette.text),
+            BasicText(localized(value.status), style = MonitorTypography.text(12f, FontWeight.SemiBold).copy(color = MonitorPalette.text),
                 maxLines = 1, softWrap = false, overflow = TextOverflow.Ellipsis,
                 autoSize = TextAutoSize.StepBased(9.sp, 12.sp, .25f.sp))
             value.batch?.let {

@@ -17,7 +17,6 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -37,6 +36,7 @@ import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.MonitorWatcherConnectionOverlayValue
 import com.opencapture.monitorui.MonitorWatcherConnectionPhase
 import com.opencapture.monitorui.MonitorWatcherPasscodeRule
+import com.opencapture.monitorui.l10n.Text
 
 /** Localized content from the host; source/control admission remains in the real relay owner. */
 public class MonitorWatcherConnectionLabels(public val requestControl: String, public val releaseControl: String,

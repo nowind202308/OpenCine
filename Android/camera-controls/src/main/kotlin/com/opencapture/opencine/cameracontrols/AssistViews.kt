@@ -21,7 +21,6 @@ import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -55,6 +54,7 @@ import com.opencapture.monitorui.MonitorScopeRect
 import com.opencapture.monitorui.MonitorTab
 import com.opencapture.monitorui.MonitorWaveformMode
 import com.opencapture.monitorui.MonitorZebraUnit
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorScrollFade
 import com.opencapture.monitorui.monitorTabStrip
 import com.opencapture.monitorui.settings.MonitorSettingsColorDot

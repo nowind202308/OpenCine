@@ -16,7 +16,6 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -43,6 +42,7 @@ import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorLayoutPolicy
 import com.opencapture.monitorui.MonitorPairCameraPage
 import com.opencapture.monitorui.MonitorPalette
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.core.ConnectTarget
 import com.opencapture.opencine.core.ConfirmationPrompt
 import com.opencapture.opencine.core.ConnectionFailure

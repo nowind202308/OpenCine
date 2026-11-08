@@ -28,7 +28,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.key
@@ -49,6 +48,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.*
+import com.opencapture.monitorui.l10n.Text
+import com.opencapture.monitorui.l10n.UiCatalog
 import com.opencapture.monitorui.settings.*
 import com.opencapture.opencine.appkit.MonitorOperatorSessionModel
 import com.opencapture.opencine.appkit.MonitorSettingsCacheSource
@@ -640,7 +641,7 @@ internal fun SettingsSystem(configuration: MonitorOperatorSettingsConfiguration,
             delete = {
                 diagnostics.incidents.deleteStoredReports { deleted ->
                     Toast.makeText(context,
-                        if (deleted) "Saved feed reports deleted" else "Couldn't delete saved feed reports. Please try again.",
+                        UiCatalog.translate(context, if (deleted) "Saved feed reports deleted" else "Couldn't delete saved feed reports. Please try again."),
                         Toast.LENGTH_LONG).show()
                 }
             })
@@ -650,7 +651,7 @@ internal fun SettingsSystem(configuration: MonitorOperatorSettingsConfiguration,
             source = {
                 val url = support.sourceUrl
                 if (url != null && !openMonitorLink(context, url)) {
-                    Toast.makeText(context, MONITOR_LINK_UNAVAILABLE, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, UiCatalog.translate(context, MONITOR_LINK_UNAVAILABLE), Toast.LENGTH_SHORT).show()
                 }
             },
             privacy = { openLegal(MonitorLegalPage.PRIVACY) }, terms = { openLegal(MonitorLegalPage.TERMS) },

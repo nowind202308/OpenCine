@@ -11,6 +11,7 @@ import android.os.Looper
 import android.util.Log
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
+import com.opencapture.monitorui.l10n.UiCatalog
 import com.opencapture.opencine.appkit.DiscoveryPermissions
 import com.opencapture.opencine.appkit.MediaShare
 import com.opencapture.opencine.media.BoundedDiagnosticFormatter
@@ -137,7 +138,7 @@ public abstract class DiagnosticCenterRuntime<S>(
 
     public fun shareReport(context: Context, session: S, emailSupport: Boolean = false, copyForFeedback: Boolean = true) {
         if (!sharing.compareAndSet(false, true)) {
-            android.widget.Toast.makeText(context, "Preparing the report…", android.widget.Toast.LENGTH_SHORT).show()
+            android.widget.Toast.makeText(context, UiCatalog.translate(context, "Preparing the report…"), android.widget.Toast.LENGTH_SHORT).show()
             return
         }
         if (!emailSupport && copyForFeedback) copyCompact(context, session)
@@ -154,7 +155,7 @@ public abstract class DiagnosticCenterRuntime<S>(
                 } catch (_: Exception) {
                     Handler(Looper.getMainLooper()).post {
                         android.widget.Toast.makeText(app,
-                            "Couldn't prepare the report. Please try again or email ${host.supportEmail}.",
+                            UiCatalog.translate(app, "Couldn't prepare the report. Please try again or email ${host.supportEmail}."),
                             android.widget.Toast.LENGTH_LONG).show()
                     }
                 } finally {
@@ -202,7 +203,7 @@ public abstract class DiagnosticCenterRuntime<S>(
 
     private fun launchShare(context: Context, files: List<File>, emailSupport: Boolean = false) {
         if (files.isEmpty()) {
-            android.widget.Toast.makeText(context, "Couldn't prepare a diagnostic report. Please try again.",
+            android.widget.Toast.makeText(context, UiCatalog.translate(context, "Couldn't prepare a diagnostic report. Please try again."),
                 android.widget.Toast.LENGTH_LONG).show()
             return
         }
@@ -215,7 +216,7 @@ public abstract class DiagnosticCenterRuntime<S>(
             uris.add(uri)
         }
         if (uris.isEmpty()) {
-            android.widget.Toast.makeText(context, "Couldn't attach the diagnostic report. Please try again.",
+            android.widget.Toast.makeText(context, UiCatalog.translate(context, "Couldn't attach the diagnostic report. Please try again."),
                 android.widget.Toast.LENGTH_LONG).show()
             return
         }
@@ -252,7 +253,7 @@ public abstract class DiagnosticCenterRuntime<S>(
             context.startActivity(chooser)
         } catch (_: android.content.ActivityNotFoundException) {
             android.widget.Toast.makeText(context,
-                "Email ${host.supportEmail}. No compatible app is available.",
+                UiCatalog.translate(context, "Email ${host.supportEmail}. No compatible app is available."),
                 android.widget.Toast.LENGTH_LONG).show()
         }
     }

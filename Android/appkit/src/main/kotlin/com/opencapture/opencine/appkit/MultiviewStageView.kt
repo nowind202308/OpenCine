@@ -24,7 +24,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -75,6 +74,7 @@ import com.opencapture.monitorui.MonitorTypography
 import com.opencapture.monitorui.MultiviewArrangement
 import com.opencapture.monitorui.MultiviewPresentationLayout
 import com.opencapture.monitorui.MultiviewTileCanvas
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorChromeClickable
 import com.opencapture.monitorui.monitorMaterial
 import com.opencapture.monitorui.monitorScrollFade

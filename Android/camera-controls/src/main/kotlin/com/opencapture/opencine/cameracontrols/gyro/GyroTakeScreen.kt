@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -30,6 +29,7 @@ import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorLinkHealth
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.gyro.GyroLogEntry
 import com.opencapture.opencine.gyro.GyroTakeStatus
 

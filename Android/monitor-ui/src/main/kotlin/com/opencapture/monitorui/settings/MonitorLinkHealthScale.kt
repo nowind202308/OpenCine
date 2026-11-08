@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.MonitorLinkHealth
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 
 private fun linkHealthText(size: Float, weight: FontWeight, mono: Boolean = false): TextStyle =
     if (mono) MonitorTypography.readout(size, weight) else MonitorTypography.text(size, weight)

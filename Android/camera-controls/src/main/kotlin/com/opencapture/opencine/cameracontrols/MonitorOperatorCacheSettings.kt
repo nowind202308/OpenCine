@@ -1,7 +1,6 @@
 package com.opencapture.opencine.cameracontrols
 
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.Composable
@@ -12,6 +11,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.graphics.Color
 import com.opencapture.monitorui.MonitorPalette
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.settings.MonitorCacheSettings
 import com.opencapture.opencine.appkit.MonitorMediaLibraryModel
 import com.opencapture.opencine.appkit.settingsCacheSource

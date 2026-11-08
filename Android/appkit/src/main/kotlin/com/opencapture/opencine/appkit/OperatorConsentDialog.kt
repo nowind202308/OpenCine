@@ -1,13 +1,13 @@
 package com.opencapture.opencine.appkit
 
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.staticCompositionLocalOf
+import com.opencapture.monitorui.l10n.Text
 
 /** The shell's one decision presenter, with replies bound to the alert that produced them. */
 @Composable

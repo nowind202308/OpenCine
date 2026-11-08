@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -41,6 +40,7 @@ import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorQuickPreview
 import com.opencapture.monitorui.MonitorTab
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorTabStrip
 import com.opencapture.opencine.appkit.LocalOperatorHaptics
 import com.opencapture.opencine.cameracontrols.CaptureFocusChoices

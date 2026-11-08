@@ -1,5 +1,6 @@
 package com.opencapture.monitorui.wrist
 
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.media.BatteryReading
 import com.opencapture.opencine.media.BatteryFraction
 import com.opencapture.opencine.media.BatterySteps
@@ -60,7 +61,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-import androidx.compose.material3.Text
 
 /** Complete wrist geometry, tally, command feedback and input over truthful source facts. */
 @Composable

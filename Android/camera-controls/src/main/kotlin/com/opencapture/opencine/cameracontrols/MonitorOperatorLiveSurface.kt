@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
@@ -42,6 +41,7 @@ import com.opencapture.monitorui.MonitorMaterial
 import com.opencapture.monitorui.MonitorRect
 import com.opencapture.monitorui.MonitorToolUsageState
 import com.opencapture.monitorui.PortraitZones
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorMaterial
 import com.opencapture.monitorui.portraitAspectToggle
 import com.opencapture.monitorui.portraitAssistToolbar

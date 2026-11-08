@@ -1,5 +1,6 @@
 package com.opencapture.opencine.cameracontrols
 
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.appkit.LocalOperatorHaptics
 import android.view.MotionEvent
 import android.view.ScaleGestureDetector
@@ -11,7 +12,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect

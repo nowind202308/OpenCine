@@ -18,7 +18,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -39,6 +38,7 @@ import com.opencapture.monitorui.LocalMonitorAssistVisible
 import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorInstantReviewLayout as Layout
 import com.opencapture.monitorui.MonitorRect
+import com.opencapture.monitorui.l10n.Text
 
 /** Test and automation identifiers of the instant review (iOS `accessibilityIdentifier`s). */
 object MonitorInstantReviewIds {

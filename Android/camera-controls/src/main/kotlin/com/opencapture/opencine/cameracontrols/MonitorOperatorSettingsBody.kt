@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import android.widget.Toast
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import com.opencapture.monitorui.l10n.UiCatalog
 import com.opencapture.monitorui.settings.LocalMonitorSettingsScrollContext
 import com.opencapture.monitorui.settings.MonitorDisplaySettings
 import androidx.compose.runtime.MutableIntState
@@ -100,7 +101,7 @@ internal fun MonitorOperatorSettingsBody(inputs: MonitorOperatorSettingsInputs) 
     val openLegal: (MonitorLegalPage) -> Unit = { page ->
         val legal = configuration.legal
         if (legal != null && !legal.open(page, context) { legalPage.value = it }) {
-            Toast.makeText(context, MONITOR_LINK_UNAVAILABLE, Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, UiCatalog.translate(context, MONITOR_LINK_UNAVAILABLE), Toast.LENGTH_SHORT).show()
         }
     }
     BoxWithConstraints(Modifier.fillMaxSize().background(MonitorPalette.background)

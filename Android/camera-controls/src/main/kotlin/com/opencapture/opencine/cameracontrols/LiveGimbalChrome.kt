@@ -24,7 +24,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Slider
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -81,6 +80,7 @@ import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorRect
 import com.opencapture.monitorui.MonitorSwitchGraphic
 import com.opencapture.monitorui.MonitorValueDrum
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorMaterial
 import com.opencapture.monitorui.monitorReadoutShadow
 import com.opencapture.monitorui.monitorScrollFade

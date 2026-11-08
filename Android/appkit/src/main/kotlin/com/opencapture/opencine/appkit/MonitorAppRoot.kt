@@ -24,7 +24,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -56,6 +55,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.appkit.diagnostics.AutomaticReportsPrompt
 import com.opencapture.opencine.appkit.diagnostics.ReliabilityReporting
 import com.opencapture.opencine.appkit.diagnostics.ReliabilityReportingConsent

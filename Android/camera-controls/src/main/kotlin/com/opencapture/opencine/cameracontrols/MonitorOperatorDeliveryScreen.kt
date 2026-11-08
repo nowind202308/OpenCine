@@ -16,7 +16,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
@@ -50,6 +49,7 @@ import com.opencapture.monitorui.MonitorMediaDeliveryProgressValue
 import com.opencapture.monitorui.MonitorMediaDeliveryValue
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.appkit.*
 import com.opencapture.opencine.vocabulary.MediaClipFormatting
 import kotlinx.coroutines.CoroutineScope

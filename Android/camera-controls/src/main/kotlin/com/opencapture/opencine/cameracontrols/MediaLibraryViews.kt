@@ -37,7 +37,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DatePicker
 import androidx.compose.material3.DatePickerDialog
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
@@ -68,6 +67,7 @@ import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorMaterial
 import com.opencapture.monitorui.MonitorTab
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.media.MediaTransferRate
 import com.opencapture.monitorui.monitorMaterial
 import com.opencapture.monitorui.monitorScrollFade

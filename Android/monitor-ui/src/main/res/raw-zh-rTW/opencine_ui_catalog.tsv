@@ -1,0 +1,1329 @@
+# zh-TW catalog for shared operator copy: English<TAB>Traditional Chinese. See UiCatalog.
+# Abbreviations (ISO, EV, fps, LUT, REC, HDR, Log curve names) stay in English.
+Camera Wi-Fi	相機 Wi-Fi
+Wi-Fi · {}	Wi-Fi · {}
+Hotspot	熱點
+Connect over {} instead	改用 {} 連線
+Try again	再試一次
+Edit setup	編輯連線方式
+Pair again	重新配對
+Open Settings	開啟設定
+On the camera	在相機上
+On this phone	在這支手機上
+Next	下一步
+Find your camera	尋找你的相機
+Nearby cameras	附近的相機
+Turn the camera on and keep this phone nearby.	請開啟相機，並讓手機保持在附近。
+Nothing selected yet	尚未選擇
+Selected {}	已選擇 {}
+Choose the camera that matches your screen	選擇與畫面相符的相機
+Monitoring opens when the picture is ready	畫面就緒後會自動開啟監看
+Connecting…	連線中…
+{} · nearby	{} · 在附近
+Looking for cameras	正在尋找相機
+No cameras yet	還沒有相機
+Continue	繼續
+Back	返回
+IN USE	使用中
+In use by another device	正被其他裝置使用
+Ready to pair	可以配對
+Pair	配對
+NOT CONNECTED	未連線
+LAST USED	上次使用
+Nearby · ready to connect	在附近 · 可以連線
+Not found. Power it on to reconnect	找不到相機，請開機後重新連線
+Connect	連線
+Reconnect	重新連線
+tap to reconnect	點一下重新連線
+Pair a new camera to start monitoring.	配對一台新相機即可開始監看。
+Open Multiview	開啟多機預覽
+Media library	媒體庫
+Settings	設定
+Pair a new camera	配對新相機
+Rename camera	重新命名相機
+Give this camera a name you'll recognize.	幫這台相機取一個容易辨認的名稱。
+Name	名稱
+Save	儲存
+Rename setup	重新命名連線方式
+Name this connection setup. Leave it blank to use the default name.	為這個連線方式命名，留白則使用預設名稱。
+Remove camera?	要移除相機嗎？
+This removes {} from this phone. You can pair it again later.	這會從手機移除 {}，之後可以再重新配對。
+Remove	移除
+Rename	重新命名
+announcing over Bluetooth	正透過藍牙廣播
+Nearby devices	附近的裝置
+Pictures	圖片
+Movies	影片
+{} media	{} 媒體
+Stop recording?	要停止錄影嗎？
+Start recording?	要開始錄影嗎？
+Stop	停止
+Start	開始
+Take photo	拍照
+Stopping recording	正在停止錄影
+Stop recording	停止錄影
+Recording state unknown	錄影狀態未知
+Start recording	開始錄影
+Shooting mode	拍攝模式
+Recording	錄影中
+Standby	待機
+Not set	未設定
+Auto	自動
+Auto {}	自動 {}
+Editing {}	正在編輯 {}
+Tap an eye to show or hide it	點眼睛圖示可顯示或隱藏
+Done	完成
+Connect the camera to use its controls.	請先連上相機才能使用控制項。
+Recording state is not known yet. Try again in a moment.	還不知道錄影狀態，請稍後再試。
+{}: the camera refused it.	{}：相機拒絕了這個操作。
+{} is not offered by this camera.	這台相機不支援 {}。
+{} was not sent: the camera state changed. Try again.	{} 未送出：相機狀態已改變，請再試一次。
+{} was not applied by the camera.	相機沒有套用 {}。
+{} was not sent.	{} 未送出。
+{}: the camera link dropped before it confirmed.	{}：相機確認前連線就中斷了。
+The camera did not confirm {}.	相機沒有確認 {}。
+{} skipped	已略過 {}
+Upload is unavailable.	無法上傳。
+{} uploaded	已上傳 {}
+{} not cached	{} 未快取
+{} failed	{} 失敗
+Nothing to upload.	沒有可上傳的項目。
+Saving to Photos is unavailable.	無法儲存到相簿。
+Sharing is unavailable.	無法分享。
+Cancelled.	已取消。
+Upload to your {} project	上傳到你的 {} 專案
+Couldn't cache {} clip(s) from the camera. Check the connection and try again.	無法從相機快取 {} 個片段，請檢查連線後再試一次。
+The camera stopped responding while caching {} clip(s). Reconnect and try again.	快取 {} 個片段時相機停止回應，請重新連線後再試一次。
+Select at least one clip.	請至少選擇一個片段。
+Couldn't reach the internet after leaving the camera's Wi-Fi. Check cellular or home Wi-Fi and try again.	離開相機 Wi-Fi 後無法連上網路，請檢查行動網路或 Wi-Fi 後再試一次。
+Prepared {}; {} failed.	已準備 {}；{} 失敗。
+{} clip(s) couldn't be cached from the camera.	有 {} 個片段無法從相機快取。
+Saved {}; {} couldn't be saved to Photos.	已儲存 {}；{} 無法儲存到相簿。
+Saved {} clip{} to Photos	已將 {1} 個片段儲存到相簿
+Switching networks…	正在切換網路…
+Waiting for Photos access…	正在等待相簿存取權限…
+Saving to Photos…	正在儲存到相簿…
+Caching from camera…	正在從相機快取…
+Caching from camera	正在從相機快取
+Exporting	匯出中
+Preparing…	準備中…
+Preparing to share	正在準備分享
+Uploading	上傳中
+Caching from camera · {}	正在從相機快取 · {}
+Share	分享
+Upload	上傳
+Share with other apps	分享到其他 App
+Couldn't leave the camera's Wi-Fi while another network switch is running.	另一個網路切換正在進行，無法離開相機的 Wi-Fi。
+Couldn't reach the internet after leaving the camera's Wi-Fi. Check cellular or home Wi-Fi.	離開相機 Wi-Fi 後無法連上網路，請檢查行動網路或 Wi-Fi。
+Live	即時
+DISP 1 · Live	DISP 1 · 即時
+The full monitor. Set what it shows in Edit view.	完整監看畫面，可在「編輯畫面」設定要顯示的項目。
+Clean	簡潔
+DISP 2 · Clean	DISP 2 · 簡潔
+A stripped-back image. Same elements as DISP 1. Status, tool and capture bars start off. Pin which view assists stay on.	精簡畫面，元素與 DISP 1 相同，但狀態列、工具列和拍攝列預設關閉。可釘選要保留的輔助工具。
+Command	儀表板
+DISP 3 · Command	DISP 3 · 儀表板
+The camera dashboard in place of the picture. Only the rail is yours to arrange.	以相機儀表板取代畫面，只有側欄可以自行安排。
+Status Bar	狀態列
+Tool Bar	工具列
+Camera Values	相機參數
+Lock Button	鎖定按鈕
+Batteries	電量
+Record	錄影
+Media	媒體
+Zoom Chip	變焦標籤
+Gimbal Stick	雲台搖桿
+Face Box	人臉框
+Timecode	時間碼
+Format	格式
+Codec	編碼
+Color	色彩
+Storage	儲存空間
+Could not delete that clip.	無法刪除這個片段。
+Could not open the camera library.	無法開啟相機媒體庫。
+Could not list camera clips.	無法列出相機片段。
+Could not save local clip favorites.	無法儲存本機片段的最愛。
+Could not download that clip.	無法下載這個片段。
+Could not open that clip.	無法開啟這個片段。
+This clip is not cached on the phone.	這個片段沒有快取在手機上。
+drag to set	拖曳以設定
+Camera	相機
+Arrange the bars, readouts and tools directly on the monitor.	直接在監看畫面上安排各列、讀數與工具。
+Connect to arrange this on the monitor.	連上相機後才能在監看畫面上安排。
+AF Box	對焦框
+View assists that stay on in clean view	簡潔畫面中保持開啟的輔助工具
+Keep {} in clean view	在簡潔畫面保留 {}
+REC, timecode, format, and FPS along the top of the feed.	畫面上方的 REC、時間碼、格式與 FPS。
+The view-assist strip under the feed.	畫面下方的輔助工具列。
+ISO, shutter, white balance, and the rest of the capture strip.	ISO、快門、白平衡等拍攝參數列。
+Side-rail lock. Remounts while the interface is locked.	側欄鎖定。介面鎖定時會重新顯示。
+Phone and camera battery cluster.	手機與相機電量。
+Standby / recording chip on the status bar.	狀態列上的待機／錄影標籤。
+Running timecode on the status bar.	狀態列上的時間碼。
+Recording resolution and frame rate.	錄影解析度與影格率。
+Recording codec chip on the status bar.	狀態列上的錄影編碼標籤。
+Color mode chip on the status bar.	狀態列上的色彩模式標籤。
+Remaining media time on the status bar.	狀態列上的剩餘錄影時間。
+Live-view rate and link bars.	即時預覽幀率與連線訊號。
+Rail record lamp. Stays available while rolling.	側欄錄影燈，錄影中也保持可用。
+Rail media button.	側欄媒體按鈕。
+Rail settings button. Always an escape hatch.	側欄設定按鈕，隨時都能進入。
+Live zoom readout on the feed.	畫面上的即時變焦讀數。
+On-screen gimbal stick.	螢幕上的雲台搖桿。
+Focus and face-tracking brackets on the feed.	畫面上的對焦與人臉追蹤框。
+Self-timer, {} seconds	自拍計時 {} 秒
+Capturing	拍攝中
+Bluetooth Remote Shutter	藍牙遙控快門
+A paired Bluetooth shutter remote's button press starts or stops recording while the live view is up front. Android cannot reliably distinguish Bluetooth from phone hardware keys, so Volume Up/Down and Play/Pause also toggle recording. Record Confirmation is skipped for remote presses.	即時預覽在前景時，按下已配對的藍牙遙控快門可開始或停止錄影。Android 無法可靠分辨藍牙按鍵與手機實體鍵，所以音量鍵與播放／暫停鍵也會切換錄影。遙控按鍵不會跳出錄影確認。
+Disconnected	已中斷連線
+Waiting for the camera	正在等待相機
+Live View	即時預覽
+Remove camera	移除相機
+REC {}:{}	REC {}:{}
+Waiting for a camera's record state.	正在等待相機的錄影狀態。
+A camera is not in a video mode.	有相機不在錄影模式。
+A camera is not connected.	有相機未連線。
+Stop recording on all cameras?	要停止所有相機的錄影嗎？
+Record on all cameras?	要讓所有相機開始錄影嗎？
+Each camera confirms independently; recording is not synchronized.	每台相機各自確認，錄影不會同步開始。
+Close Multiview? Recording continues.	要關閉多機預覽嗎？錄影會繼續。
+Close Multiview and return cameras to their own Wi-Fi? Recording continues.	要關閉多機預覽並讓相機回到自己的 Wi-Fi 嗎？錄影會繼續。
+Close monitoring	關閉監看
+2 × 2 grid	2 × 2 格狀
+Center stage	主畫面
+Exit Multiview	離開多機預覽
+Toggle LUT for all cameras	切換所有相機的 LUT
+Toggle Auto LUT for all cameras	切換所有相機的自動 LUT
+Fit feed in frame	完整顯示畫面
+Fill frame with feed	畫面填滿
+Show Focused stage	顯示主畫面
+Show Grid	顯示格狀
+Camera settings	相機設定
+On	開
+Off	關
+Multiview tools	多機預覽工具
+All connected cameras	所有已連線的相機
+Add camera	新增相機
+Camera battery {} percent	相機電量 {}%
+Camera battery unavailable	無法取得相機電量
+Looking for nearby cameras…	正在尋找附近的相機…
+Cancel	取消
+Turn on	開啟
+Allow	允許
+Location	位置
+Android 10 and 11 only find Bluetooth cameras while Location is on.	Android 10 和 11 必須開啟位置資訊才能找到藍牙相機。
+Still looking	仍在尋找
+Before you pair	配對之前
+Turn Bluetooth on so we can find your {}.	請開啟藍牙，才能找到你的 {}。
+Android won’t ask again. Open Settings › Permissions › {} and choose Allow.	Android 不會再詢問。請開啟「設定 › 權限 › {}」並選擇允許。
+Android 10 and 11 need Location to scan for Bluetooth cameras. It is only used to find your {}.	Android 10 和 11 需要位置權限才能掃描藍牙相機，只會用來尋找你的 {}。
+Allow Nearby devices so we can find your {} over Bluetooth. Location isn’t needed.	請允許「附近的裝置」權限，才能透過藍牙找到你的 {}。不需要位置權限。
+Bluetooth	藍牙
+Wait here, we keep the Bluetooth link alive	請留在這個畫面，App 會維持藍牙連線
+Don't force-quit the app	請不要強制關閉 App
+Tap Join when Android asks to join the camera network	Android 詢問是否加入相機網路時，請點「加入」
+Check the connection	檢查連線
+Bluetooth link	藍牙連線
+Camera connected	相機已連線
+Waiting for the camera network	正在等待相機網路
+Live picture	即時畫面
+Opening the video link…	正在開啟影像連線…
+Starts after Wi-Fi joins	加入 Wi-Fi 後開始
+Nothing to type. Approve it on the camera	不需要輸入，請在相機上確認
+Android asks to join the camera network	Android 會詢問是否加入相機網路
+Approve on the camera	在相機上確認
+Join camera Wi-Fi	加入相機 Wi-Fi
+Open video link	開啟影像連線
+Bluetooth scan	藍牙掃描
+Camera prompt	相機確認
+Camera network	相機網路
+Video link	影像連線
+Scanning for camera…	正在掃描相機…
+Connecting (Bluetooth)…	正在連線（藍牙）…
+Pairing…	配對中…
+Approve on the camera screen	請在相機螢幕上確認
+Reading Wi-Fi credentials…	正在讀取 Wi-Fi 資訊…
+Joining camera Wi-Fi…	正在加入相機 Wi-Fi…
+Opening datalink…	正在開啟資料連線…
+Connected	已連線
+Idle	閒置
+Password	密碼
+A router, venue network or another device’s hotspot. Cameras and this phone join the same Wi-Fi.	路由器、場地網路或其他裝置的熱點。相機和手機加入同一個 Wi-Fi。
+Best for studios and several cameras	適合攝影棚與多台相機
+Choose Wi-Fi	選擇 Wi-Fi
+This phone’s hotspot. Works anywhere you have mobile data.	使用這支手機的熱點，有行動網路的地方都能用。
+Best on the move	適合移動中拍攝
+Choose hotspot	選擇熱點
+This phone joins the camera’s own Wi-Fi. No router or hotspot needed.	手機直接加入相機的 Wi-Fi，不需要路由器或熱點。
+Best in the field with one camera	適合外拍、單台相機
+Choose camera Wi-Fi	選擇相機 Wi-Fi
+Plug the camera straight into this phone. Nothing to set up.	把相機直接接到手機，不需要任何設定。
+Best for a fixed rig	適合固定架設
+Choose USB-C	選擇 USB-C
+HDMI capture	HDMI 擷取
+A USB HDMI capture device on this phone. Picture only, no camera control.	手機接 USB HDMI 擷取裝置，只有畫面，無法控制相機。
+Best when the camera has no network	適合沒有網路功能的相機
+Choose HDMI capture	選擇 HDMI 擷取
+Added · {}	已新增 · {}
+How will your cameras connect?	相機要用什麼方式連線？
+How should this camera connect?	這台相機要用什麼方式連線？
+Choose the shared network before adding cameras. Saved passwords stay on this phone.	新增相機前請先選擇共用網路。儲存的密碼只會留在這支手機上。
+Switch setups from the camera’s chips at any time.	隨時可以從相機的標籤切換連線方式。
+Camera Wi-Fi stays available. Switch setups from the camera’s chips at any time.	相機 Wi-Fi 仍可使用，隨時可以從相機的標籤切換連線方式。
+This phone joins first. Every camera you add will use the same Wi-Fi.	手機會先加入，之後新增的相機都使用同一個 Wi-Fi。
+The camera and this phone must be on the same Wi-Fi.	相機和手機必須在同一個 Wi-Fi。
+Allow Location to show this phone’s Wi-Fi	允許位置權限以顯示手機目前的 Wi-Fi
+Settings › Apps › {} › Permissions › Location, with Use precise location on. Only the Wi-Fi name is used.	設定 › 應用程式 › {} › 權限 › 位置，並開啟「使用精確位置」。只會讀取 Wi-Fi 名稱。
+Tap to allow precise location. Only the Wi-Fi name is used.	點一下允許精確位置，只會讀取 Wi-Fi 名稱。
+Turn on Location to show this phone’s Wi-Fi	開啟位置資訊以顯示手機目前的 Wi-Fi
+Settings › Location. Only the Wi-Fi name is used.	設定 › 位置資訊。只會讀取 Wi-Fi 名稱。
+Choose the network	選擇網路
+Connected · password saved	已連線 · 密碼已儲存
+SAVED ON THIS PHONE	已儲存在這支手機
+Password saved	密碼已儲存
+Scan again	重新掃描
+This phone’s current network	手機目前的網路
+This phone joins it too	手機也會加入
+BEFORE YOU CONNECT	連線之前
+WPA2 or WPA2/WPA3 mixed	WPA2 或 WPA2/WPA3 混合
+WPA3-only networks can refuse some cameras.	僅 WPA3 的網路可能會拒絕部分相機。
+Devices can see each other	裝置之間可以互通
+Guest networks with client isolation block the picture.	開啟用戶端隔離的訪客網路會擋住畫面。
+Camera within range	相機在訊號範圍內
+The camera leaves its own Wi-Fi and joins this one.	相機會離開自己的 Wi-Fi，改加入這個網路。
+Saved on this phone. Multiview can reuse it.	已儲存在手機上，多機預覽可以沿用。
+Hotspot is on	熱點已開啟
+Hotspot not detected yet. It can appear once the camera joins.	尚未偵測到熱點，相機加入後才可能出現。
+IN SETTINGS › HOTSPOT	在 設定 › 熱點
+Turn on Hotspot	開啟熱點
+Lets the camera join this phone.	讓相機加入這支手機。
+Use the 2.4 GHz band	使用 2.4 GHz 頻段
+Every {} camera supports 2.4 GHz.	所有 {} 相機都支援 2.4 GHz。
+HOTSPOT NAME	熱點名稱
+Hotspot name	熱點名稱
+The camera is looking for this phone’s hotspot…	相機正在尋找手機的熱點…
+The network name shown in Settings › Hotspot.	「設定 › 熱點」中顯示的網路名稱。
+HOTSPOT PASSWORD	熱點密碼
+Android keeps it private: copy it from Settings › Hotspot once. It is remembered here.	Android 不會提供這個密碼，請從「設定 › 熱點」複製一次，之後會記在這裡。
+THIS PHONE’S HOTSPOT	這支手機的熱點
+Finishing camera scan…	正在完成相機掃描…
+Other network…	其他網路…
+Connect over Wi-Fi	透過 Wi-Fi 連線
+Connect over Hotspot	透過熱點連線
+Shared Wi-Fi	共用 Wi-Fi
+Connect your cameras	連接你的相機
+Add setup	新增連線方式
+Cameras are using this network. Remove them before changing it.	有相機正在使用這個網路，請先移除它們再修改。
+Other network	其他網路
+Network name	網路名稱
+The camera is looking for networks…	相機正在尋找網路…
+Networks appear here as it finds them	找到的網路會顯示在這裡
+This camera can’t list networks	這台相機無法列出網路
+Choose a known network, or Other network.	請選擇已知的網路，或選「其他網路」。
+Turn the camera on to find networks	請開啟相機以尋找網路
+The scan did not finish. Try Scan again.	掃描沒有完成，請點「重新掃描」。
+No networks found yet	還沒找到網路
+This network is secured. Enter its password.	這個網路有加密，請輸入密碼。
+Leave it empty only for an open network.	只有開放網路才能留空。
+Preparing the report…	正在準備回報…
+Couldn't prepare the report. Please try again or email {}.	無法準備回報，請再試一次，或寄信到 {}。
+What happened?\n\n\nTechnical details are attached to help us investigate. Please do not include private footage or passwords.	發生了什麼事？\n\n\n已附上技術資訊協助調查。請不要附上私人影片或密碼。
+Email support	寄信給客服
+Email {}. No compatible app is available.	請寄信到 {}。找不到可用的郵件 App。
+{}: report a problem	{}：回報問題
+Report removed from this phone	已從手機移除回報
+Could not remove this report. Please try again.	無法移除這份回報，請再試一次。
+Waiting to send. Keep the app open after leaving camera Wi-Fi	等待傳送中。離開相機 Wi-Fi 後請保持 App 開啟
+Reporting destination changed. Remove this report and send again.	回報目的地已變更，請移除這份回報後重新傳送。
+Reporting is unavailable in this build	這個版本無法回報
+The queued report is missing	找不到待傳送的回報
+Waiting to send	等待傳送
+Sent	已傳送
+Failed	失敗
+Report sent. Thank you for helping improve {}.	回報已傳送，感謝你協助改善 {}。
+Waiting for a connection. Your report is saved on this phone	等待連線中，回報已儲存在手機上
+Report couldn't be sent. Remove it and try again, or contact {}.	回報無法傳送，請移除後再試，或聯絡 {}。
+Report expired before it could be sent. Please create a new report.	回報在傳送前已過期，請重新建立一份。
+Report unavailable	無法回報
+Couldn’t prepare technical details. You can still send your description.	無法準備技術資訊，但仍可傳送你的描述。
+Couldn't open this image. Please choose another photo or screenshot.	無法開啟這張圖片，請選擇其他照片或截圖。
+This image is too large to attach. Please choose a smaller image.	圖片太大無法附加，請選擇較小的圖片。
+You can attach up to three photos, 1 MB each and 3 MB total.	最多可附加三張照片，每張 1 MB，總計 3 MB。
+Couldn’t prepare this image. Please choose another photo or screenshot.	無法處理這張圖片，請選擇其他照片或截圖。
+Report a problem	回報問題
+Tell us what happened. Technical details stay off unless you include them. You can attach up to three photos. Sending does not turn on automatic reports.	告訴我們發生了什麼事。除非你勾選，否則不會附上技術資訊。最多可附加三張照片。傳送不會開啟自動回報。
+Discard the queued report before sending another.	請先捨棄待傳送的回報，再傳送新的。
+What happened?	發生了什麼事？
+Reply email (optional)	回覆用電子郵件（選填）
+Include technical details	附上技術資訊
+Off by default. Review the preview before sending. App and device versions, connection events and errors. No footage.	預設關閉，傳送前請先檢視預覽。內容包含 App 與裝置版本、連線事件和錯誤，不含影片。
+Technical details preview	技術資訊預覽
+Photos or screenshots (optional)	照片或截圖（選填）
+Choose up to 3 images you have permission to share. Location metadata is removed. Not taken automatically. Images are sent only with this report.	最多選擇 3 張你有權分享的圖片。位置資訊會被移除，不會自動擷取，只會隨這份回報傳送。
+Add photos or screenshots	新增照片或截圖
+Preparing images…	正在處理圖片…
+Reporting Privacy	回報隱私權
+Send report	傳送回報
+Technical details are not ready. Wait, or turn them off to send your description.	技術資訊尚未準備好，請稍候，或關閉後只傳送描述。
+Add a description and check the optional email address.	請填寫描述，並確認選填的電子郵件。
+This build cannot send a report.	這個版本無法傳送回報。
+Could not save this report. Your text is still here; please try again.	無法儲存這份回報，你的文字仍保留著，請再試一次。
+A report is already waiting to send.	已有一份回報等待傳送。
+Discard	捨棄
+Help improve {}	協助改善 {}
+Reporting privacy	回報隱私權
+Enable automatic reports	開啟自動回報
+Not now	稍後再說
+Fast	快速
+Quality	品質
+Corrects the displayed shape of an anamorphic image in live view and playback. Horizontal widens the image; Vertical makes it taller. The full image stays fitted. Recordings, photos, exports and scope measurements are unchanged.	在即時預覽與播放時修正變形鏡頭的畫面比例。「水平」會加寬畫面，「垂直」會加高畫面，整個畫面仍完整顯示。錄影、照片、匯出與示波器測量都不受影響。
+Histo	直方圖
+Traffic Lights	紅綠燈
+Show small RGB edge blocks for crushed and clipped channels. Clip lights from about a third of a stop under the camera's clip, the same point zebra 100% and CineStop use.	在畫面邊緣以 RGB 小方塊顯示暗部死黑與亮部過曝的色版。過曝燈在相機過曝點下方約 1/3 檔亮起，與斑馬紋 100% 和 CineStop 使用的點相同。
+Crush/Clip Compensation	死黑／過曝補償
+Stops of crush/clip tolerance before a traffic light glows. Shared with the goal-post meter.	紅綠燈亮起前允許的死黑／過曝容許檔數，與門柱曝光表共用。
+midtones untouched	中間調不變
+Flips the monitor for a camera pointed back at you or mounted upside down. The recording and the scopes are never mirrored.	相機朝向自己或倒裝時翻轉監看畫面。錄影與示波器不會被翻轉。
+Left-to-right, for a camera pointed back at you.	左右翻轉，用於相機朝向自己時。
+Top-to-bottom, for an underslung mount. Both on turns it 180°.	上下翻轉，用於倒掛安裝。兩者都開啟等於旋轉 180°。
+Meters the camera's audio. Available while live view is up.	顯示相機的音量表，即時預覽時可用。
+. Hold for options	。長按顯示選項
+How false color reads log footage. 709 reads the camera's official Rec.709 look, the way RED, ARRI and most monitors apply false color, so clip means clipped in the Rec.709 image. LOG reads the raw signal like WAVE, with the full highlight range and the camera's own clip.	偽色如何判讀 Log 畫面。「709」依相機官方的 Rec.709 外觀判讀，和 RED、ARRI 及多數監看螢幕的做法相同，過曝代表 Rec.709 畫面已過曝。「LOG」像波形圖一樣判讀原始訊號，保留完整亮部範圍並使用相機本身的過曝點。
+Limits	極限
+Encoded code percentage. Source calibration unavailable.	編碼值百分比，無法取得來源校正。
+Stereo	立體聲
+Mono	單聲道
+Spatial	空間音訊
+All	全部
+Front	前方
+Front+back	前方＋後方
+Other	其他
+Photo	照片
+Channel	聲道
+Wind	抗風噪
+Dir	方向
+Vocal	人聲
+Manual	手動
+Face Priority	人臉優先
+On: EV follows faces to middle gray. Several faces use the median. First couple of seconds after a face appears are faster, then about 1 s. Off: put EV back to what it was, or 0.0.	開啟：EV 會跟著人臉調整到中灰，多張人臉取中位數。人臉出現後的前幾秒反應較快，之後約 1 秒。關閉：EV 回到原本的值或 0.0。
+Auto Native ISO	自動原生 ISO
+On: switching D-Log ↔ D-Log2 hops ISO to that curve's starred native if you were still on native. Off: keep the ISO you set.	開啟：在 D-Log 與 D-Log2 之間切換時，如果原本在原生 ISO，會跳到該曲線標星號的原生 ISO。關閉：維持你設定的 ISO。
+Kelvin	色溫
+Tint	色調
+AWB Lock	AWB 鎖定
+Angle	角度
+Face priority	人臉優先
+Compensation	補償
+Live Photo	原況照片
+Showcase	展示
+Lock	鎖定
+Priority	優先
+AF-S focuses once. AF-C follows focus continuously; the other modes use the camera's supported tracking modes.	AF-S 單次對焦，AF-C 連續追焦；其他模式使用相機支援的追蹤模式。
+Gamepad connected	遊戲手把已連線
+Gamepad disconnected	遊戲手把已中斷
+Shift toward blue	偏藍
+Shift toward green	偏綠
+Shift toward magenta	偏洋紅
+Shift toward amber	偏琥珀
+Neutral	中性
+Unlock monitor controls	解鎖監看控制項
+Lock monitor controls	鎖定監看控制項
+Capture mode	拍攝模式
+Stop recording to change mode.	請先停止錄影再切換模式。
+Audio controls unavailable	無法使用音訊控制
+Audio control unavailable	無法使用音訊控制
+Audio control refused	音訊控制被拒絕
+Gimbal	雲台
+Motion Control	運動控制
+{} · Experimental	{} · 實驗性
+Speed	速度
+Ramp	緩起緩停
+Double-tap	點兩下
+MOTION CONTROL	運動控制
+Smoothness {}	平滑度 {}
+Loop	循環
+Repeat back and forth until Stop.	來回重複，直到按下停止。
+Restart	重新開始
+Resume	繼續
+Pause	暫停
+Stop · {}	停止 · {}
+PAN {}°  TILT {}°  {}×	水平 {}°  俯仰 {}°  {}×
+STOP · {}	停止 · {}
+WHITE BALANCE	白平衡
+SHOOTING MODE	拍攝模式
+Sensitivity	感光度
+Angle · speed	角度 · 速度
+Kelvin · auto · tint	色溫 · 自動 · 色調
+Aperture strategy	光圈策略
+Channel · wind · direction · vocal	聲道 · 抗風噪 · 方向 · 人聲
+Color mode	色彩模式
+Frame rate	影格率
+, digital crop	，數位裁切
+; double tap for digital zoom	；點兩下使用數位變焦
+Zoom {}{}. Tap to cycle; hold to adjust{}	變焦 {}{}。點一下切換，長按調整{}
+Focus box locked	對焦框已鎖定
+Focus box unlocked	對焦框已解鎖
+Creative	創意
+Custom	自訂
+The LUT “{}” could not be deleted.	無法刪除 LUT「{}」。
+The LUT could not be deleted.	無法刪除這個 LUT。
+Couldn’t Delete LUT	無法刪除 LUT
+Clear {}?	要清除 {} 嗎？
+This removes the stored LUT from this device. This action cannot be undone.	這會從裝置移除已儲存的 LUT，而且無法復原。
+Clear LUT	清除 LUT
+Exposure	曝光
+Split comparison	分割比較
+Left / Right	左／右
+Top / Bottom	上／下
+Looks for the displayed picture	套用在顯示畫面上的風格
+Manual camera conversion	手動相機轉換
+Show {} media	顯示 {} 媒體
+Delete {} selected {} from the camera card	從相機記憶卡刪除已選的 {1} 個項目
+Delete selected media	刪除已選的媒體
+Share {} selected {}	分享已選的 {1} 個項目
+CACHING {} {}	快取中 {} {}
+Querying card storage…	正在讀取記憶卡空間…
+{} clip{} found so far	目前已找到 {1} 個片段
+Filters	篩選
+Clear all	全部清除
+Reading camera media…	正在讀取相機媒體…
+Listing clips on camera…	正在列出相機上的片段…
+No matching clips	沒有符合的片段
+Camera disconnected	相機已中斷連線
+No cached clips	沒有快取的片段
+No clips yet	還沒有片段
+Proxy	代理檔
+720p preview. Connect the camera to share the original.	720p 預覽。連上相機才能分享原始檔。
+All clips	所有片段
+Videos	影片
+Photos	照片
+Favorites	最愛
+Listing camera clips…	正在列出相機片段…
+Connect the camera to list clips.	請連上相機以列出片段。
+Camera did not enter playback.	相機沒有進入播放模式。
+Playback is open on the camera. Close to return to live view.	相機正在播放，關閉後會回到即時預覽。
+No clips on the camera.	相機上沒有片段。
+That clip cannot be deleted from here.	無法在這裡刪除這個片段。
+Could not load that thumbnail.	無法載入縮圖。
+Loading clip from camera…	正在從相機載入片段…
+Small thumbnails	小縮圖
+Medium thumbnails	中縮圖
+Large thumbnails	大縮圖
+Nothing in this tab matches the filters.	這個分頁沒有符合篩選條件的項目。
+Nothing on this camera yet. Record a clip, then pull to refresh.	相機上還沒有內容。錄一段影片後，下拉重新整理。
+Nothing favorited yet. Star a clip to find it here.	還沒有最愛。為片段加上星號後會出現在這裡。
+No videos on this camera yet. Record a clip, then pull to refresh.	相機上還沒有影片。錄一段影片後，下拉重新整理。
+No photos on this camera yet. Capture a still, then pull to refresh.	相機上還沒有照片。拍一張照片後，下拉重新整理。
+Connect the camera to list clips on the body.	請連上相機以列出機身上的片段。
+No cached clips here. Connect the camera to list clips on the body.	這裡沒有快取的片段。請連上相機以列出機身上的片段。
+Camera disconnected. Showing clips cached on this phone.	相機已中斷連線，目前顯示手機上快取的片段。
+Tap to open · Hold, then drag to select	點一下開啟 · 長按後拖曳可選取
+Swipe to scroll · Hold or drag sideways to select	滑動捲動 · 長按或橫向拖曳可選取
+Waiting for camera color	正在等待相機色彩資訊
+Auto · no conversion needed	自動 · 不需要轉換
+LUT unavailable	無法使用 LUT
+Codec and color	編碼與色彩
+Privacy	隱私權
+Terms	使用條款
+Licenses	授權
+This build does not include this document. It is in the project's source repository.	這個版本沒有包含這份文件，請到專案的原始碼庫查看。
+The LUT archive exceeds the import limits.	LUT 壓縮檔超過匯入限制。
+The selected document could not be read.	無法讀取選取的文件。
+The app can no longer read that document.	App 已無法讀取那份文件。
+This LUT library is not available.	無法使用這個 LUT 庫。
+The LUT could not be saved in the app library.	無法將 LUT 儲存到 App 的 LUT 庫。
+This LUT is no longer in the app library. Remove it or choose another look.	這個 LUT 已不在 App 的 LUT 庫中，請移除或選擇其他風格。
+This LUT can no longer be validated. Remove it or import the original again.	這個 LUT 已無法驗證，請移除或重新匯入原始檔。
+This LUT could not be read from the app library. Remove it or import it again.	無法從 App 的 LUT 庫讀取這個 LUT，請移除或重新匯入。
+Retry	重試
+Internet required	需要網路連線
+Download over internet	透過網路下載
+Adding LUTs…	正在新增 LUT…
+Download failed	下載失敗
+Download failed.	下載失敗。
+unknown error	未知錯誤
+Deleting {} {}…	正在刪除 {1} 個項目…
+Keep originals downloaded for playback.	保留下載的原始檔以供播放。
+Originals and playback proxies downloaded from the camera.	從相機下載的原始檔與播放代理檔。
+Remove downloaded picture files while keeping the clip list.	移除已下載的影像檔，保留片段清單。
+Checking…	檢查中…
+Could not read the cache.	無法讀取快取。
+Could not clear the cache. Try again.	無法清除快取，請再試一次。
+Clear cache?	要清除快取嗎？
+Clear	清除
+Angle · actual {}	角度 · 實際 {}
+Scanning…	掃描中…
+Listing… {} found	列出中… 已找到 {}
+{} item{}	{1} 個項目
+Delete {} item{} from the camera?	要從相機刪除 {1} 個項目嗎？
+ON CAMERA	在相機上
+Upload service	上傳服務
+New {} project	新增 {} 專案
+Creates a blank project in your workspace.	在你的工作區建立空白專案。
+Project name	專案名稱
+Create	建立
+Leave camera Wi-Fi?	要離開相機 Wi-Fi 嗎？
+We'll hop to home Wi-Fi or cellular so you can sign in and pick a project. The camera reconnects automatically when you're done.	會暫時切換到家用 Wi-Fi 或行動網路，讓你登入並選擇專案。完成後相機會自動重新連線。
+Hop	切換
+{} on-camera clip(s) will be cached from the camera first.	會先從相機快取 {} 個機上片段。
+{} on-camera clip(s) will be skipped; reconnect to cache them.	會略過 {} 個機上片段；重新連線後才能快取。
+{} isn't configured; add credentials in Settings → Storage.	{} 尚未設定，請到「設定 → 儲存空間」新增帳號資訊。
+Project: {}	專案：{}
+{} needs the internet. Hop off the camera's Wi-Fi to pick a project (currently “{}”) and upload; the camera reconnects automatically when you're done.	{} 需要網路連線。請暫時離開相機 Wi-Fi 以選擇專案（目前為「{}」）並上傳，完成後相機會自動重新連線。
+{} needs the internet. Hop off the camera's Wi-Fi to sign in and pick a project; the camera reconnects automatically when you're done.	{} 需要網路連線。請暫時離開相機 Wi-Fi 以登入並選擇專案，完成後相機會自動重新連線。
+Upload destination in your {} workspace.	上傳到你 {} 工作區的位置。
+Sign in to {} from Settings → Storage to upload.	請從「設定 → 儲存空間」登入 {} 才能上傳。
+Convert log	轉換 Log
+Output curve	輸出曲線
+Bake LUT	燒入 LUT
+Apply {} to exports.	將 {} 套用到匯出檔。
+Apply the selected LUT to exports.	將選取的 LUT 套用到匯出檔。
+No LUT selected. Pick one in view assists.	尚未選擇 LUT，請在輔助工具中選擇。
+Bake exposure	燒入曝光
+Write the LUT exposure pull into the file so it matches the monitor. Off bakes the cube at 0.0.	把 LUT 的曝光調整寫入檔案，讓結果和監看畫面一致。關閉時以 0.0 燒入。
+MOV preserves quality; MP4 is more widely compatible.	MOV 保留畫質，MP4 相容性較廣。
+Include metadata	包含中繼資料
+Filename, capture date, and size (best-effort JSON sidecar).	檔名、拍攝日期與大小（盡量以 JSON 附檔提供）。
+Re-upload already uploaded	重新上傳已上傳的項目
+Skip clips already on {} unless enabled.	除非開啟，否則會略過已在 {} 上的片段。
+{} clip{}	{1} 個片段
+Nearby Share, Files, and other apps	鄰近分享、檔案與其他 App
+Save to Photos	儲存到相簿
+Size unavailable	無法取得大小
+At least {}	至少 {}
+Converted log	已轉換 Log
+LUT baked	已燒入 LUT
+Camera original	相機原始檔
+Clip {} of {}	第 {} 個片段，共 {} 個
+Couldn't share this clip.	無法分享這個片段。
+Couldn't share these clips.	無法分享這些片段。
+Use metered stops	使用測光檔數
+Camera exposure meter, unavailable	相機曝光表，無法使用
+Camera exposure meter, {} EV	相機曝光表，{} EV
+{} image preview	{} 影像預覽
+Return to Multiview	返回多機預覽
+Operator Setup	操作設定
+Display mode unavailable	無法使用顯示模式
+Face	人臉
+Matrix	矩陣
+WAITING FOR LIVE VIEW	等待即時預覽
+Preparing image…	正在處理影像…
+Back to media	返回媒體
+Delete all	全部刪除
+Delete photo from the camera card	從相機記憶卡刪除照片
+Share photo	分享照片
+Remove from favorites	從最愛移除
+Add to favorites	加入最愛
+Delete this photo from the camera?	要從相機刪除這張照片嗎？
+Delete	刪除
+Preview of {}	{} 的預覽
+File	檔案
+Resolution	解析度
+Duration	長度
+Playback source	播放來源
+Size	大小
+Created	建立時間
+Favorite	最愛
+Yes	是
+No	否
+Media unavailable	無法使用媒體
+This media is no longer available.	這個媒體已無法使用。
+No media service is available for this camera.	這台相機沒有可用的媒體服務。
+No camera connected	沒有連線的相機
+How this phone reaches the camera.	手機連到相機的方式。
+The camera this monitor shows.	這個監看畫面顯示的相機。
+Link Health	連線狀態
+No app is available for that action.	沒有可以執行這個動作的 App。
+View Assist	輔助工具
+Show the native monitor in HDR when the display supports it.	螢幕支援時，以 HDR 顯示原生監看畫面。
+Not connected	未連線
+Remote shutter	遙控快門
+Auto-Rotate Feed	畫面自動旋轉
+Tell us what happened in the app. Choose whether to include technical details and an email for a reply.	告訴我們 App 發生了什麼事。可選擇是否附上技術資訊與回覆用電子郵件。
+Open	開啟
+Remove saved feed reports from this phone. Connection logs remain. Turn off automatic reporting to clear pending uploads. Reports already sent cannot be removed here.	從手機移除已儲存的畫面回報，連線紀錄會保留。關閉自動回報可清除待上傳項目。已傳送的回報無法在這裡移除。
+Picture	畫面
+Processing	處理
+Coming soon...	即將推出…
+Gyro logging	陀螺儀紀錄
+Log gyro with camera recordings	錄影時同步記錄陀螺儀
+Mount this phone firmly to the camera. Synchronize exported logs in Gyroflow.	請把手機牢固地裝在相機上，並在 Gyroflow 中同步匯出的紀錄。
+Status	狀態
+Phone mount	手機安裝位置
+Choose the phone's position relative to the camera. Keep the mount unchanged during a take; rotating the whole rig needs no new selection.	選擇手機相對於相機的位置。拍攝過程中請勿改變安裝方式；整組旋轉不需要重新選擇。
+Configure	設定
+Gyro logs	陀螺儀紀錄
+Saved motion logs	已儲存的運動紀錄
+Share a log with the matching camera video, then select its lens and mount orientation in Gyroflow.	將紀錄與對應的相機影片一起分享，再到 Gyroflow 選擇鏡頭與安裝方向。
+Share a log with the matching camera video, then select its lens in Gyroflow. A configured phone mount is included in each new log.	將紀錄與對應的相機影片一起分享，再到 Gyroflow 選擇鏡頭。每份新紀錄都會包含已設定的手機安裝位置。
+Saved feed reports deleted	已刪除儲存的畫面回報
+Couldn't delete saved feed reports. Please try again.	無法刪除儲存的畫面回報，請再試一次。
+Optional	選用
+Recenter focus	對焦回到中央
+Recording format	錄影格式
+Storage remaining	剩餘空間
+Recording options	錄影選項
+REC SETUP	錄影設定
+Zoom {}	變焦 {}
+Keeps the screen awake while this app is active. Turn off to use the device's normal auto-lock setting. The system may still dim the screen when the device is hot.	使用 App 時保持螢幕常亮。關閉則依照裝置的自動鎖定設定。裝置過熱時系統仍可能調暗螢幕。
+Waiting for the camera to report its color curve. False color, zebra and LUT exposure return on their own once it does.	正在等待相機回報色彩曲線。回報後偽色、斑馬紋與 LUT 曝光會自動恢復。
+How the live-view frame is enlarged to fill the panel. The camera sends far fewer pixels than the panel has, so something always does this. Off is a plain sample, Fast is a fixed sharpening kernel, and Quality is the OS spatial upscaler.\n\nAI is different in kind: it is a machine-learning model that INFERS detail the camera never captured. It gives the sharpest-looking picture, but the fine texture it adds is invented (plausible rather than real), so it can suggest crispness the lens did not record. Judge critical focus on Quality or Fast, and treat AI as a viewing aid rather than evidence.\n\nOnly the options this device supports are shown.	即時預覽畫面放大填滿螢幕的方式。相機傳來的像素遠少於螢幕，所以一定需要放大。「關」是單純取樣，「快速」使用固定的銳化，「品質」使用系統的空間放大。\n\nAI 的性質不同：它是機器學習模型，會「推測」相機沒有拍到的細節。畫面看起來最銳利，但加上的細紋是推算出來的（看似合理但不是真的），可能讓你誤以為鏡頭拍得很清楚。判斷關鍵對焦請用「品質」或「快速」，AI 只當作觀看輔助。\n\n只會顯示這台裝置支援的選項。
+BLE + Wi-Fi active	BLE + Wi-Fi 運作中
+Feed Upscaler	畫面放大
+Show the camera's exposure meter at the picture's left edge in DISP 1. Auto and Manual use the camera reading without changing exposure settings.	在 DISP 1 的畫面左側顯示相機曝光表。「自動」與「手動」都使用相機讀數，不會改變曝光設定。
+Enabled	啟用
+Look	風格
+Choose look	選擇風格
+Scale	刻度
+Reference key	參考色表
+Reference Display	參考顯示
+Highlight	亮部
+Midtone	中間調
+Threshold	門檻
+Colour	顏色
+Mode	模式
+Brightness	亮度
+Safe Border Clip	過曝安全邊界
+Safe Border Crush	死黑安全邊界
+Middle Gray	中灰
+Panel	螢幕
+HDR display	HDR 顯示
+Crosshair	十字線
+Anamorphic Desqueeze	變形鏡頭還原
+Mirror	鏡像
+Audio Levels	音量表
+Empty	空白
+Pocket uses Bluetooth to pair, then the camera's own Wi-Fi for HEVC. USB-C, hotspot, and HDMI capture are not in this build.	Pocket 先用藍牙配對，再透過相機自己的 Wi-Fi 傳送 HEVC 畫面。這個版本不支援 USB-C、熱點與 HDMI 擷取。
+Where the BLE → Wi-Fi → datalink handshake is right now.	目前 BLE → Wi-Fi → 資料連線的交握進度。
+SSID joined for this session. The password stays in the Android Keystore on this phone.	這次連線加入的 SSID。密碼只保存在手機的 Android Keystore。
+Pair from the home list. Settings does not start a new pair. That stays on Your cameras.	請從首頁清單配對。設定頁不會開始新的配對，配對在「你的相機」進行。
+Opens the monitor with an eye on each element you can show or hide.	開啟監看畫面，每個可顯示或隱藏的元素旁都會有眼睛圖示。
+Sign in to upload clips from the share popup. Frame.io needs the internet, so the phone hops off the camera Wi‑Fi for the upload.	登入後可從分享視窗上傳片段。Frame.io 需要網路，上傳時手機會暫時離開相機 Wi‑Fi。
+Ask before starting or stopping recording to prevent mistaps.	開始或停止錄影前先確認，避免誤觸。
+Switch the camera between Video, Photo and the time-based modes. The camera reports the mode back, so this follows a change made on the body itself.	切換相機的錄影、拍照與縮時類模式。相機會回報目前模式，所以在機身上切換也會同步。
+Short confirmation pulses for switches, settings, and gimbal limits. A connected controller also rumbles at a stop.	切換、設定與雲台到極限時以短震動確認。連接的手把在到達停止點時也會震動。
+How large the on-screen stick is. Medium is the default. Large is easier to grab; Small keeps more of the picture clear.	螢幕搖桿的大小。預設為中。大比較好操作，小則遮擋較少畫面。
+Reverse left and right on the on-screen stick. Off is the default. A game controller is unchanged.	反轉螢幕搖桿的左右方向。預設關閉，遊戲手把不受影響。
+Reverse up and down on the on-screen stick. Off is the default. A game controller is unchanged.	反轉螢幕搖桿的上下方向。預設關閉，遊戲手把不受影響。
+Ignore small movements near the center. The default is 8%. Increase it to make the center less sensitive.	忽略中央附近的小幅移動。預設 8%，調高可讓中央較不敏感。
+Standard keeps the current feel. Linear responds evenly. Fine makes small movements gentler.	「標準」維持目前手感，「線性」反應均勻，「精細」讓小幅移動更柔和。
+Which analog stick pans and tilts. Left is the default. The other stick does not move the gimbal.	用哪一支類比搖桿控制水平與俯仰。預設為左，另一支不會移動雲台。
+A connected game controller. The selected gimbal joystick pans and tilts. Cross/A records. Circle/B recenters. Square/X is rotate-180. Triangle/Y tracks a face. L1/R1 jump zoom out/in. L2/R2 hold-to-zoom (deeper is faster). D-pad up/down ISO, left/right shutter. Unplug rests the stick. On-screen stick wins while you hold it.	已連接的遊戲手把。選定的搖桿控制雲台水平與俯仰。叉／A 錄影，圓／B 回中，方／X 旋轉 180°，三角／Y 追蹤人臉。L1／R1 跳段縮小／放大，L2／R2 按住變焦（按越深越快）。十字鍵上下調 ISO，左右調快門。拔除手把時搖桿歸零。按住螢幕搖桿時以螢幕搖桿為準。
+Outdoor panel brightness, not a grade. WAVE, HISTO, PARADE, VECTOR, zebras and false color still read the decoded camera signal, so judge exposure there, not from how bright the picture looks. Screen recording drops back to a normal SDR picture so the file is not HDR-boosted. This is not the camera's HDR/HLG color mode. Off by default.	提高戶外螢幕亮度，不是調色。WAVE、HISTO、PARADE、VECTOR、斑馬紋與偽色仍讀取解碼後的相機訊號，請以這些判斷曝光，不要看畫面亮不亮。螢幕錄影會回到一般 SDR 畫面，不會被 HDR 加亮。這不是相機的 HDR／HLG 色彩模式。預設關閉。
+Charcoal field-monitor chrome with Sky Blue accents, tuned for low reflection on set.	炭灰色的外拍監看介面搭配天藍色強調，降低現場反光。
+Connection, live view, controls, and troubleshooting.	連線、即時預覽、控制與疑難排解。
+Opens a public issue form on GitHub for this project.	在 GitHub 開啟這個專案的公開問題回報表單。
+This build cannot send automatic reports. You can still share or delete reports stored on this phone.	這個版本無法傳送自動回報，但仍可分享或刪除手機上儲存的回報。
+Start an idea in this project's feature-request discussion.	在這個專案的功能建議討論區提出想法。
+View the {} project on GitHub. Opening this may leave the camera Wi-Fi if that is the only network.	在 GitHub 查看 {} 專案。如果相機 Wi-Fi 是唯一的網路，開啟時可能會離開它。
+How healthy the camera link is right now: delivery, not radio RSSI.	目前相機連線的狀況：看的是傳輸品質，不是無線訊號強度。
+Removes cached clips, thumbnails and camera indexes for every camera. Cameras reload their library when connected.	移除所有相機的快取片段、縮圖與索引。相機連線時會重新載入媒體庫。
+Looks apply on this phone. The file on the camera is unchanged.	風格只套用在手機上，相機上的檔案不會改變。
+Current {} build from the native project metadata.	原生專案資訊中的目前 {} 版本。
+Cached clips, thumbnails and camera indexes for every camera on this phone.	手機上所有相機的快取片段、縮圖與索引。
+Download the original camera file when you open a clip. Off keeps only the 720p proxy to save space. Share needs the original, so connect the camera if it is not cached.	開啟片段時下載相機原始檔。關閉則只保留 720p 代理檔以節省空間。分享需要原始檔，未快取時請連上相機。
+Show a compact color key over live view while False Color is active.	偽色開啟時，在即時預覽上顯示精簡的色彩對照表。
+Higher sensitivity catches finer edges but can get noisy on detailed scenes.	靈敏度越高越能抓到細邊緣，但細節多的畫面會變雜亂。
+Choose the edge color that stays readable over your typical scene.	選擇在常見場景中容易辨識的邊緣顏色。
+Switch between native 0-255 encoded codes and a 0-100 monitoring IRE scale.	切換原生 0–255 編碼值與 0–100 監看 IRE 刻度。
+High zebra warns when bright detail approaches clipping after the active log curve is compensated.	高位斑馬紋會在亮部細節接近過曝時警告（已補償目前的 Log 曲線）。
+Midtone zebra gives a curve-compensated reference band for faces or key subject exposure.	中間調斑馬紋提供經曲線補償的參考帶，用於人臉或主體曝光。
+Raise trace intensity when the waveform is hard to read in bright light.	強光下波形圖不易辨識時，可調高亮度。
+Raise trace intensity when channel separation is hard to see.	色版不易分辨時，可調高亮度。
+Magnifies only the chroma trace; the graticule stays at unity. The vectorscope reads the monitor image (your active LUT, or the built-in display tone map), where chroma is meaningful.	只放大色度軌跡，刻度維持原比例。向量示波器讀取的是監看畫面（目前的 LUT 或內建顯示色調映射），色度在這裡才有意義。
+Raise trace intensity when the chroma plot is hard to read.	色度圖不易辨識時，可調高亮度。
+Stops of crush/clip tolerance before a channel indicator glows. Shared with the histogram traffic lights.	色版指示燈亮起前允許的死黑／過曝容許檔數，與直方圖紅綠燈共用。
+No live path.	沒有即時畫面通道。
+Waiting for the link.	正在等待連線。
+Link is clean. · Stable	連線良好 · 穩定
+Some loss on the link. · Watch	連線有些遺失 · 注意
+Link is weak. · Poor	連線不佳 · 差
+Failed: {}	失敗：{}
+Peaking	峰值對焦
+False Color	偽色
+Zebra	斑馬紋
+Waveform	波形圖
+Parade	分量圖
+Histogram	直方圖
+Vectorscope	向量示波器
+ND Suggestion	ND 建議
+Guides	參考線
+Grid	格線
+Meters the live picture against middle gray and suggests a screw-on ND (stops and ND number) to balance it. The app cannot set a filter.	以中灰為基準測量即時畫面，並建議要加多少 ND 鏡（檔數與 ND 號數）。App 無法設定濾鏡。
+Units	單位
+Stops vs middle gray, filter factor (ND16 / ND32 / ND64), or optical density (ND 0.3 = 1 stop).	相對中灰的檔數、濾鏡倍率（ND16／ND32／ND64）或光學密度（ND 0.3 = 1 檔）。
+Join the same camera Wi-Fi as the sharing phone first. On that phone, open Operator Setup → Sharing → Show Wi-Fi code. Scan it with Camera, join the network, then return here.	請先加入與分享手機相同的相機 Wi-Fi。在分享手機上開啟「操作設定 → 分享 → 顯示 Wi-Fi 條碼」，用相機 App 掃描並加入網路後再回到這裡。
+No shared feeds on this network. Check that both devices joined the same camera Wi-Fi and Share this feed is on. Allow Local Network if asked.	這個網路上沒有分享的畫面。請確認兩台裝置都加入同一個相機 Wi-Fi，且已開啟「分享這個畫面」。若詢問區域網路權限請允許。
+Watch a feed	觀看畫面
+Close	關閉
+Already joined? Choose the shared feed below. Keep the camera connection inside the app on the sharing phone only.	已經加入了嗎？請從下方選擇分享的畫面。相機連線只保留在分享手機的 App 內。
+Find shared feeds	尋找分享的畫面
+This feed needs a passcode.	這個畫面需要密碼。
+Passcode	密碼
+Join	加入
+Reconnecting… {} of {}	重新連線中… 第 {} 次，共 {} 次
+Joining…	加入中…
+Get started	開始
+Use last calibration	使用上次的校正
+Hold the camera level	請保持相機水平
+Slowly tilt the lens up	慢慢將鏡頭往上抬
+Tilt up and lean to one side	往上抬並傾向一側
+Hold still while the ring fills	圓環填滿前請保持不動
+Connect your camera to calibrate	請連上相機再校正
+Stop recording to calibrate	請停止錄影再校正
+Hold steadier	請拿穩一點
+That didn't line up. Let's try once more.	沒有對齊，再試一次。
+The camera changed. Let's start over.	相機已變更，請重新開始。
+Recording started. Calibrate again after you stop.	已開始錄影，停止後請重新校正。
+The camera disconnected. Calibrate again when it's back.	相機已中斷連線，恢復後請重新校正。
+Calibration complete	校正完成
+Your gyro data now lines up with this camera.	陀螺儀資料已與這台相機對齊。
+Your phone mount moved during that take.	這次拍攝中手機安裝位置移動了。
+Recalibrate now?	要現在重新校正嗎？
+Recalibrate	重新校正
+Share a log to your computer, open it in Gyroflow with the clip, then pick your lens.	把紀錄分享到電腦，在 Gyroflow 中與片段一起開啟，再選擇鏡頭。
+Dismiss tip	關閉提示
+Today	今天
+Yesterday	昨天
+Select	選取
+Share log	分享紀錄
+Cut short	提早結束
+Small gaps	少量中斷
+Not calibrated	未校正
+Ready	就緒
+Still recording	仍在錄影
+Ready for Gyroflow	可用於 Gyroflow
+Delete this log?	要刪除這份紀錄嗎？
+No logs yet	還沒有紀錄
+Turn on Gyro, then hit record. Each take saves a log you can open in Gyroflow.	開啟陀螺儀後開始錄影，每次拍攝都會儲存一份可在 Gyroflow 開啟的紀錄。
+Turn on Gyro	開啟陀螺儀
+calibrated mount	已校正安裝位置
+not calibrated	未校正
+Details	詳細資訊
+Starts	開始
+Smoothness	平滑度
+Sample rate	取樣率
+No gaps	無中斷
+The camera didn't accept the change. IBIS is still on.	相機沒有接受變更，機身防手震仍開啟。
+Couldn't turn IBIS back on. Check it on the camera.	無法重新開啟機身防手震，請在相機上確認。
+This phone's gyroscope is unavailable.	無法使用這支手機的陀螺儀。
+Gyro stopped because the sensor stopped reporting.	感測器停止回報，陀螺儀紀錄已停止。
+Gyro stopped because samples were lost.	取樣遺失，陀螺儀紀錄已停止。
+Gyro stopped because recording events could not be saved in time.	錄影事件無法及時儲存，陀螺儀紀錄已停止。
+The gyro log could not be saved.	無法儲存陀螺儀紀錄。
+Gyro logs could not be opened.	無法開啟陀螺儀紀錄。
+This log can't be shared yet.	這份紀錄還無法分享。
+The gyro log could not be deleted.	無法刪除陀螺儀紀錄。
+Some interrupted logs could not be recovered. Saved logs are still here.	部分中斷的紀錄無法復原，已儲存的紀錄仍在。
+Calibrate phone mount	校正手機安裝位置
+MOUNT MOVED	安裝位置移動
+Gyro armed	陀螺儀待命
+Gyro recording	陀螺儀記錄中
+Gyro saving the take	陀螺儀正在儲存
+Gyro recording with small gaps	陀螺儀記錄中（少量中斷）
+Gyro error. Opens gyro logs.	陀螺儀錯誤，點一下開啟紀錄。
+Gyro waiting for the camera	陀螺儀正在等待相機
+Phone mount moved	手機安裝位置移動
+Turn off IBIS for Gyroflow	為 Gyroflow 關閉機身防手震
+Gyroflow can't correct footage the camera already stabilized.	Gyroflow 無法修正相機已經防手震過的畫面。
+Also switch off VR on the lens.	也請關閉鏡頭的 VR 防手震。
+Turn off IBIS	關閉機身防手震
+Keep it on	保持開啟
+Calibrate your phone mount	校正手機安裝位置
+About 20 seconds. Keep the phone clamped to the camera.	大約 20 秒，請保持手機固定在相機上。
+{} caps zoom at {}	{} 的變焦上限為 {}
+Linear	線性
+Standard	標準
+Fine	精細
+Normal	一般
+Normal 10-bit	一般 10-bit
+Product Showcase	產品展示
+Subject Lock Tracking	主體鎖定追蹤
+Registered Subject Priority	已登錄主體優先
+CODEC · COLOR	編碼 · 色彩
+Can't change color while recording. D-Log2 can't zoom	錄影中無法變更色彩。D-Log2 無法變焦
+{} timed out	{} 逾時
+Left	左
+Right	右
+Default	預設
+Slow	慢速
+Soft	柔和
+Follow	跟隨
+Recenter	回中
+Tilt locked	俯仰已鎖定
+Gimbal pose not ready	雲台姿態尚未就緒
+Set A and B to run	請先設定 A 和 B 才能執行
+Hold the gimbal still	請讓雲台保持不動
+Direction Lock	方向鎖定
+Custom D-Log	自訂 D-Log
+Custom D-Log2	自訂 D-Log2
+Photo live view is Rec.709. Log conversions are off	拍照模式的即時預覽為 Rec.709，Log 轉換已關閉
+Contrast	對比
+Warm	暖色
+Cool	冷色
+Off · {}	關 · {}
+Auto · {}	自動 · {}
+Applying official {}	正在套用官方 {}
+Applying {}	正在套用 {}
+Newest	最新
+Oldest	最舊
+Rating	評分
+Playback	播放
+Capture	拍攝
+Retry connection	重試連線
+Operator menu	操作選單
+Reconnecting…	重新連線中…
+Connection keeps dropping	連線一直中斷
+Camera taken over	相機已被其他裝置接手
+The camera	相機
+{} dropped off. Holding the last frame, attempt {}. Reconnecting for up to {} minutes.	{} 已中斷連線。保留最後一個畫面，第 {} 次嘗試，最多重新連線 {} 分鐘。
+1 try	1 次
+{} tries	{} 次
+{} didn't come back after {}. Turn the camera off and on, then tap Retry. The frame below is held, not live.	{} 嘗試 {} 後仍未恢復。請將相機關機再開機，然後點「重試」。下方是保留的畫面，不是即時畫面。
+{} reconnected but dropped {} times in quick succession. Automatic retries are paused to protect the camera. The frame below is held, not live.	{} 重新連線後又在短時間內中斷 {} 次。為了保護相機，已暫停自動重試。下方是保留的畫面，不是即時畫面。
+{} reconnected but dropped {} times in quick succession. Automatic retries are paused to protect the camera, since another device may be scanning for cameras. The frame below is held, not live.	{} 重新連線後又在短時間內中斷 {} 次。可能有其他裝置正在掃描相機，為了保護相機已暫停自動重試。下方是保留的畫面，不是即時畫面。
+Another device	其他裝置
+{} connected to {}, so this device stopped reconnecting. Retry takes the camera back. The frame below is held, not live.	{} 已連到 {}，所以這台裝置停止重新連線。點「重試」可以把相機搶回來。下方是保留的畫面，不是即時畫面。
+Focus box locked. Long-press it to unlock.	對焦框已鎖定，長按可解鎖。
+Pause VPNs and ad blockers, or exclude this app. They can block the camera live feed.	請暫停 VPN 與廣告攔截器，或將本 App 排除。它們可能會擋住相機的即時畫面。
+A VPN or ad blocker may be blocking the live feed. Pause it, or exclude this app, then try again.	VPN 或廣告攔截器可能擋住了即時畫面。請暫停它或將本 App 排除，再試一次。
+Pause VPNs and ad blockers, or exclude this app	請暫停 VPN 與廣告攔截器，或將本 App 排除
+Connecting over Bluetooth	正在透過藍牙連線
+Moving the camera to {}	正在把相機移到 {}
+Joining camera Wi-Fi	正在加入相機 Wi-Fi
+Finding the camera	正在尋找相機
+Opening the video link	正在開啟影像連線
+Starting the picture	正在啟動畫面
+Couldn’t connect over {}	無法透過 {} 連線
+The camera could not join “{}” without a password. Check the Wi-Fi password: edit the setup and enter it.	相機沒有密碼無法加入「{}」。請編輯連線方式並輸入 Wi-Fi 密碼。
+Partial	部分
+Leveled to world	已依地面水平校正
+Leveled top-down	已依俯拍校正水平
+Leveled straight up	已依仰拍校正水平
+ · roll follows the handle in FPV	 · FPV 模式下橫滾跟隨握把
+Couldn't level from this pose	無法從目前姿態校正水平
+Bluetooth notification setup failed	藍牙通知設定失敗
+Bluetooth connect timed out	藍牙連線逾時
+camera disappeared	相機消失了
+Bluetooth connection replaced	藍牙連線已被取代
+camera rejected that in this mode	相機在這個模式下拒絕了這個操作
+camera rejected that value	相機拒絕了這個數值
+camera does not support that command	相機不支援這個指令
+camera never answered the datalink handshake	相機沒有回應資料連線交握
+Waiting for the camera's record state	正在等待相機的錄影狀態
+Mode {}	模式 {}
+Low-Light	低光
+Normal 8-bit	一般 8-bit
+D-Log M 10-bit	D-Log M 10-bit
+Command authority expired	控制權已過期
+password is missing	缺少密碼
+Looking for the camera	正在尋找相機
+Turn off DJI Frame Tap and force quit DJI Mimo on every phone near the camera.	請關閉 DJI Frame Tap，並在相機附近的每支手機上強制關閉 DJI Mimo。
+The camera could not find this phone’s hotspot. Turn on the Wi-Fi hotspot, then try again.	相機找不到這支手機的熱點，請開啟 Wi-Fi 熱點後再試一次。
+Couldn’t connect over Camera Wi-Fi	無法透過相機 Wi-Fi 連線
+pairing timed out	配對逾時
+never answered the datalink handshake	沒有回應資料連線交握
+The camera never answered the video link.	相機沒有回應影像連線。
+timed out	逾時
+The camera didn't respond in time. Check Bluetooth and try again.	相機沒有及時回應，請檢查藍牙後再試一次。
+The camera ended the connection. Try again.	相機結束了連線，請再試一次。
+{} · {} · nearby	{} · {} · 在附近
+Set A and B before running	執行前請先設定 A 和 B
+Set gimbal points from fresh camera feedback	請根據最新的相機回報重新設定雲台點
+Increase the move duration	請拉長移動時間
+Camera waypoint could not be verified	無法驗證相機路徑點
+Camera did not reach A	相機沒有到達 A
+Camera moved before the take	拍攝前相機移動了
+Move interrupted: waypoint dispatch was late	移動中斷：路徑點送出太慢
+Camera missed its final position	相機沒有到達最終位置
+Camera moved outside the safe rotation path	相機移出了安全旋轉路徑
+Camera did not respond. Close other camera apps and try again.	相機沒有回應，請關閉其他相機 App 後再試一次。
+Camera is not nearby. Check that it is powered on.	相機不在附近，請確認已開機。
+Camera is not ready to pair again. Please try again.	相機還無法重新配對，請再試一次。
+Camera could not complete this step. Check the Wi-Fi details and try again.	相機無法完成這個步驟，請檢查 Wi-Fi 資訊後再試一次。
+Join the shared Wi-Fi network on this device first.	請先讓這台裝置加入共用 Wi-Fi 網路。
+Wait for camera color mode before a zoom move	變焦移動前請等待相機色彩模式
+Saved zoom exceeds the current FORMAT limit	儲存的變焦超過目前格式的限制
+Wait for camera zoom feedback	請等待相機變焦回報
+Move interrupted: camera zoom feedback lost	移動中斷：失去相機變焦回報
+Move interrupted: timing or camera feedback lost	移動中斷：失去時序或相機回報
+Set reachable gimbal points again	請重新設定雲台可到達的點
+Move interrupted: camera connection changed	移動中斷：相機連線改變
+Move interrupted: camera feedback lost	移動中斷：失去相機回報
+Hold the camera still before resuming	繼續之前請讓相機保持不動
+Move interrupted: zoom command failed	移動中斷：變焦指令失敗
+Move interrupted: camera did not reach the starting zoom	移動中斷：相機沒有到達起始變焦
+Zoom moves are unavailable in D-Log2	D-Log2 無法進行變焦移動
+Invalid zoom movement	無效的變焦移動
+the camera disconnected	相機已中斷連線
+couldn't join camera Wi-Fi. Tap the system Join prompt if Android asked. On 5.8 GHz the camera Wi-Fi can take about a minute to appear. Try again, or set the camera to 2.4 GHz (Settings, Wireless, Frequency) for a faster join.	無法加入相機 Wi-Fi。若 Android 有詢問，請點系統的「加入」。在 5.8 GHz 時相機 Wi-Fi 可能要約一分鐘才會出現。請再試一次，或把相機設為 2.4 GHz（設定 › 無線 › 頻段）以加快連線。
+Joining {} on this phone	手機正在加入 {}
+Waking camera Wi-Fi	正在喚醒相機 Wi-Fi
+Finding the camera on {}	正在 {} 上尋找相機
+the camera joined the Wi-Fi, but this phone cannot reach it there. The router is keeping the two apart: on a Wi-Fi 7 router turn off MLO for this network (or add a camera network without it), and turn off client isolation. The Hotspot setup avoids the router	相機已加入 Wi-Fi，但手機在那裡連不到它，是路由器把兩者隔開了：Wi-Fi 7 路由器請關閉這個網路的 MLO（或另設一個不含 MLO 的相機網路），並關閉用戶端隔離。改用熱點連線方式可避開路由器
+camera identity verified on the network	已在網路上確認相機身分
+the camera Wi-Fi disconnected	相機 Wi-Fi 已中斷
+Multiview took the camera back	多機預覽已接手相機
+couldn't read the camera's Wi-Fi credentials	無法讀取相機的 Wi-Fi 資訊
+Gimbal re-centered	雲台已回中
+Frame rate unconfirmed; choose the shutter angle again	影格率未確認，請重新選擇快門角度
+D-Log (D-Log2 cannot zoom)	D-Log（D-Log2 無法變焦）
+D-Log (zoom)	D-Log（可變焦）
+Zoom 1× · D-Log2	變焦 1× · D-Log2
+Zoom not available	無法變焦
+Set the gimbal within its tilt limits	請把雲台設定在俯仰限制範圍內
+Wait for live video before running a move	執行移動前請等待即時畫面
+Set the gimbal points again	請重新設定雲台點
+Frame Too Small	框選範圍太小
+Finding camera on Wi-Fi	正在 Wi-Fi 上尋找相機
+Waiting for camera Wi-Fi	正在等待相機 Wi-Fi
+Joining Wi-Fi · attempt {} of {}	正在加入 Wi-Fi · 第 {} 次，共 {} 次
+Retrying Wi-Fi connection	正在重試 Wi-Fi 連線
+Waiting for the hotspot	正在等待熱點
+This camera did not report a supported Wi-Fi mode. Shared Wi-Fi setup is experimental for this model.	這台相機沒有回報支援的 Wi-Fi 模式。這個型號的共用 Wi-Fi 設定仍屬實驗性。
+The camera did not accept shared Wi-Fi mode.	相機不接受共用 Wi-Fi 模式。
+Camera Wi-Fi is still starting. Retry with the camera nearby.	相機 Wi-Fi 仍在啟動，請讓相機在附近再試一次。
+Camera Wi-Fi did not respond. Retry setup with the camera nearby.	相機 Wi-Fi 沒有回應，請讓相機在附近重新設定。
+The camera could not join the Wi-Fi. Check the password and that the network is in range. WPA3-only networks refuse some cameras: use WPA2/WPA3 with PMF optional.	相機無法加入 Wi-Fi。請確認密碼正確且網路在範圍內。僅 WPA3 的網路會拒絕部分相機，請使用 WPA2/WPA3 並將 PMF 設為選用。
+Turn on the hotspot and let other devices join, then retry. The hotspot network is not available yet.	請開啟熱點並允許其他裝置加入後再試。熱點網路尚未可用。
+Selecting Video mode	正在切換到錄影模式
+Couldn't level: {}° off	無法校正水平：偏差 {}°
+The gyro log could not be found.	找不到陀螺儀紀錄。
+Some interrupted gyro logs could not be recovered. Saved logs remain available.	部分中斷的陀螺儀紀錄無法復原，已儲存的紀錄仍可使用。
+Could not save the calibration.	無法儲存校正。
+Command channel warm	指令通道就緒
+Demo session	示範模式
+Stalled	停滯
+Low	低
+Med	中
+High	高
+Amber	琥珀
+Cyan	青
+White	白
+Blue	藍
+Red	紅
+Green	綠
+Conform {} fps to	將 {} fps 轉換為
+Audio muted during conform preview	轉換預覽時靜音
+Frame rate unavailable for this clip	這個片段無法取得影格率
+Variable frame rate: conform preview unavailable	可變影格率：無法預覽轉換
+Already conformed in camera	已在相機內轉換
+Not a high-frame-rate clip	不是高影格率片段
+Share {}	分享 {}
+Share {} items	分享 {} 個項目
+ORIGINAL · ON PHONE	原始檔 · 在手機上
+{} · CACHING ORIGINAL {}	{} · 正在快取原始檔 {}
+Horizon	水平線
+Gauge	儀表
+RGB Parade	RGB 分量圖
+EV Meter	EV 測光表
+Level	水平儀
+Camera battery	相機電量
+Phone battery	手機電量
+{} of {} bars	{} 格，共 {} 格
+level unknown	電量未知
+{} percent	{}%
+, charging	，充電中
+Your cameras	你的相機
+No cameras saved yet	還沒有儲存的相機
+Setup options	連線方式選項
+Forget {} setup	忘記 {} 連線方式
+Connecting	連線中
+Select clip	選取片段
+{} frames	{} 格
+Grid view	格狀檢視
+List view	清單檢視
+Sort clips	排序片段
+Filter	篩選
+Toggle selection	切換選取
+{} controls. Swipe up to reveal more command controls.	{} 控制項。往上滑可顯示更多控制項。
+Temp	色溫
+Lens	鏡頭
+Move {} earlier	將 {} 往前移
+Move {} later	將 {} 往後移
+Change {}	變更 {}
+MORE ⌄	更多 ⌄
+DEVICE GRAVITY	裝置重力
+DEVICE TILT	裝置傾斜
+DISP 2 clean	DISP 2 簡潔
+DISP 1 live	DISP 1 即時
+Increase duration	增加長度
+Decrease duration	減少長度
+Mask outside frame	遮罩框外區域
+Ratio	比例
+Custom ratio	自訂比例
+1.00×–2.00× in 0.01 increments.	1.00×–2.00×，每次 0.01。
+Direction	方向
+Orientation	方向
+Show dB values	顯示 dB 數值
+Horizontal	水平
+Vertical	垂直
+Thirds	三分法
+Phi Grid	黃金比例格線
+Tap the toolbar button to show or hide the centre crosshair.	點工具列按鈕可顯示或隱藏中央十字線。
+Film	電影
+Social	社群
+Diagonal	對角線
+Read	判讀
+REFERENCE KEY	參考色表
+Stops	檔數
+ZC Stops	ZC 檔數
+Native	原生
+Waiting for picture	正在等待畫面
+Zoom in	放大
+Zoom out	縮小
+Reset zoom	重設縮放
+Zoom {}x	縮放 {}x
+Small	小
+Medium	中
+Large	大
+No level data	沒有水平資料
+Level, {}	水平儀，{}
+Level, roll {}°, tilt {}°	水平儀，橫滾 {}°，俯仰 {}°
+Level, off plumb {}° / {}°	水平儀，偏離鉛直 {}° / {}°
+Level, horizon roll {}°	水平儀，地平線橫滾 {}°
+Poor	差
+Watch	注意
+Stable	穩定
+Options	選項
+Hop to internet	切換到網路
+Project	專案
+Loading projects…	正在載入專案…
+Select a project	選擇專案
+No projects	沒有專案
+Create new project	建立新專案
+Filename	檔名
+Coming soon	即將推出
+Destination: {}	目的地：{}
+Collapse	收合
+Expand delivery progress	展開傳送進度
+End	結束
+Nothing in this tab to filter by.	這個分頁沒有可篩選的項目。
+Clear all filters	清除所有篩選
+STEP {} OF {}	步驟 {}／{}
+Pair a camera	配對相機
+Share Diagnostics	分享診斷資訊
+Favorite clip	將片段加入最愛
+Clip information	片段資訊
+Share clip	分享片段
+Delete clip from camera	從相機刪除片段
+CLIP INFO	片段資訊
+Close clip information	關閉片段資訊
+Delete this clip from the camera?	要從相機刪除這個片段嗎？
+Cancel deletion	取消刪除
+Delete from the camera card	從相機記憶卡刪除
+Back 15 seconds	倒退 15 秒
+Forward 15 seconds	快轉 15 秒
+Play	播放
+Restart clip	從頭播放
+Previous clip	上一個片段
+Next clip	下一個片段
+Conform preview	轉換預覽
+Close conform preview	關閉轉換預覽
+Mute	靜音
+Unmute	取消靜音
+Loop playback	循環播放
+Hide playback controls	隱藏播放控制項
+A restore control stays in the corner	角落會保留還原按鈕
+Show playback controls	顯示播放控制項
+CONFORM PREVIEW	轉換預覽
+Real time	即時速度
+Playback position	播放位置
+Show star rating	顯示星級評分
+Hide star rating	隱藏星級評分
+Buffering from camera…\n{}	正在從相機緩衝…\n{}
+Buffering from camera…	正在從相機緩衝…
+Preparing playback…	正在準備播放…
+Raise trace intensity in bright light.	強光下可調高亮度。
+GUIDE LINES	參考線
+Safe clip	過曝安全線
+Safe crush	死黑安全線
+Middle gray	中灰
+Luma	亮度
+Exit selection	結束選取
+Share selected	分享已選項目
+Delete selected	刪除已選項目
+{} selected	已選取 {}
+Select all	全選
+1 minute	1 分鐘
+{} minutes	{} 分鐘
+1 second	1 秒
+{} seconds	{} 秒
+Elapsed time unknown	經過時間未知
+external power	外接電源
+{} of 4 delivery bars	傳輸訊號 {}／4 格
+{} frames per second	每秒 {} 格
+Live link {}, feed {}	即時連線 {}，畫面 {}
+NO LINK	無連線
+Choose value	選擇數值
+Joining shared feed…	正在加入分享的畫面…
+Waiting for picture from the host…	正在等待主機的畫面…
+At least 4 characters, or empty for an open feed.	至少 4 個字元，留空則為公開畫面。
+Close zoom	關閉變焦
+DIGITAL · SOFT	數位 · 柔化
+WIDE CROP	廣角裁切
+DIGITAL CROP	數位裁切
+Sign in	登入
+Log out	登出
+Not configured	未設定
+Signed out	已登出
+Current Transport	目前傳輸方式
+Phase	階段
+Saved	已儲存
+None	無
+Edit view	編輯畫面
+Layout For	版面配置對象
+Shown	顯示
+Hidden	隱藏
+Input & orientation	輸入與方向
+Joystick sensitivity	搖桿靈敏度
+Head Tracking (Experimental)	頭部追蹤（實驗性）
+On-screen joystick	螢幕搖桿
+Invert pan	反轉水平
+Invert tilt	反轉俯仰
+Dead zone	死區
+Response curve	反應曲線
+Controller	控制器
+Gimbal joystick	雲台搖桿
+Gamepad	遊戲手把
+Short confirmation pulses for switches, settings and controls.	切換、設定與控制時以短震動確認。
+Prevents auto-lock while this app is open. A monitor should stay lit.	App 開啟時不自動鎖定螢幕，監看畫面應保持亮著。
+Touch & safety	觸控與安全
+Record confirmation	錄影確認
+Haptics	觸覺回饋
+Keep screen awake	保持螢幕常亮
+Help	說明
+Reset to defaults	重設為預設值
+Active link	目前連線
+Link	連線
+Connection state and link behavior.	連線狀態與連線行為。
+Connection	連線
+Sharing	分享
+Coming soon.	即將推出。
+Behavior for live-view tools.	即時預覽工具的行為。
+Scopes & overlays	示波器與疊加
+Controls	控制
+Touch behavior and safety.	觸控行為與安全。
+Dials and safety	轉盤與安全
+Display	顯示
+Live view buttons and chrome.	即時預覽的按鈕與介面。
+Live view	即時預覽
+Local cache and integrations.	本機快取與整合服務。
+Cache & accounts	快取與帳號
+System	系統
+App-level behavior.	App 層級的行為。
+App behavior	App 行為
+Full Resolution Caching	完整解析度快取
+Local Media Cache	本機媒體快取
+Clear Cache	清除快取
+Clearing…	清除中…
+App Information	App 資訊
+Theme	主題
+Protocol Implementation	協定實作
+App Version	App 版本
+Project & Legal	專案與法律資訊
+Source Code	原始碼
+What this app stores on this phone.	這個 App 在手機上儲存了什麼。
+Apache 2.0 and third-party notices.	Apache 2.0 與第三方聲明。
+Attribution shipped with the app.	隨 App 提供的著作權標示。
+Help & Feedback	說明與意見回饋
+Report status	回報狀態
+Report ID	回報編號
+Use this ID if you follow up.	後續聯絡時請提供這個編號。
+Queued report	待傳送的回報
+Remove the unsent report from this phone.	從手機移除尚未傳送的回報。
+Automatic error reports	自動錯誤回報
+What reports contain, retention, and how to request deletion.	回報包含的內容、保存期限，以及如何要求刪除。
+Diagnostic options	診斷選項
+Save or remove reports on this phone	儲存或移除手機上的回報
+Delete saved feed reports	刪除已儲存的畫面回報
+Camera monitor	相機監看
+Open the app on your phone	請在手機上開啟 App
+Waiting for phone	正在等待手機
+Phone unavailable	無法連到手機
+Feed paused	畫面已暫停
+Waiting for preview	正在等待預覽
+Starting cameras…	正在啟動相機…
+Stopping cameras…	正在停止相機…
+Waiting for camera confirmation	正在等待相機確認
+Cameras changed · try again	相機已變更 · 請再試一次
+Recording stopped	錄影已停止
+Recording command rejected · check camera	錄影指令被拒絕 · 請檢查相機
+Not sent · check camera	未送出 · 請檢查相機
+No confirmation · check camera	未確認 · 請檢查相機
+Recording on {} cameras	{} 台相機錄影中
+{} of {} confirmed · check camera tiles	{}／{} 台已確認 · 請檢查相機畫格
+Large Aperture	大光圈
+SHUTTER	快門
+FOCUS	對焦
+AUDIO	音訊
+APERTURE	光圈
+IRIS	光圈
+EXPOSURE	曝光
+STORAGE	儲存空間
+RESOLUTION	解析度
+MODE	模式
+FORMAT	格式
+COLOR	色彩
+COLOUR	色彩
+CODEC	編碼
+ZOOM	變焦
+STBY	待機
+SCANNING	掃描中
+PAIRED	已配對
+NEARBY	附近
+PAIRING	配對中
+CONNECTING	連線中
+JOINING	加入中
+WAITING	等待中
+PAUSED	已暫停
+PAUSE	暫停
+RESUME	繼續
+RESET	重設
+OFFLINE	離線
+NEW	新增
+NETWORK	網路
+PROJECT	專案
+DESTINATION	目的地
+FILTER	篩選
+EXPORT	匯出
+SHARE	分享
+DONE	完成
+FAIL	失敗
+THIS PHONE IS ON	這支手機目前在
+TARGET	目標
+CHECK	檢查
+CACHED	已快取
+ORIGINAL	原始檔
+PROXY	代理檔
+WIDE	廣角
+TELE	長焦
+DATE	日期
+SIZE	大小
+VISIBILITY	顯示項目
+TOUCH	觸控
+MIRROR	鏡像
+GRID	格線
+GUIDES	參考線
+ZEBRA	斑馬紋
+LIGHTS	燈號
+METER	測光
+PEAK	峰值
+HOLD	保持
+RUN	執行
+STOP	停止
+SET	設定
+LIVE	即時
+LINK	連線
+WAIT	等待
+White Balance	白平衡
+White balance	白平衡
+Shutter	快門
+Shutter speed	快門速度
+Shutter angle	快門角度
+Aperture	光圈
+Iris	光圈
+Focus	對焦
+Audio	音訊
+Zoom	變焦
+Video	錄影

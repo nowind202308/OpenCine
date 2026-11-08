@@ -2,11 +2,11 @@ package com.opencapture.monitorui.settings
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.opencapture.monitorui.MonitorPalette
+import com.opencapture.monitorui.l10n.Text
 
 /** Known local state. The host owns authorization, credentials and request lifetime. */
 public enum class MonitorAccountState { NOT_CONFIGURED, CONNECTING, SIGNED_OUT, SIGNED_IN, ATTENTION }

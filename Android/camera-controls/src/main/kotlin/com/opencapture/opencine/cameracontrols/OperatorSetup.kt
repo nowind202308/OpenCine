@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -60,6 +59,7 @@ import com.opencapture.monitorui.MonitorWaveformMode
 import com.opencapture.monitorui.MonitorZebraUnit
 import com.opencapture.monitorui.MonitorJoystickSize
 import com.opencapture.monitorui.MonitorPalette
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.settings.MonitorExposureMeterSettings
 import com.opencapture.monitorui.settings.MonitorMotionChoiceSetting
 import com.opencapture.monitorui.settings.MonitorMotionIntegerSetting

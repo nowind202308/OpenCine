@@ -22,7 +22,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.Text
 import androidx.compose.material3.minimumInteractiveComponentSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -52,6 +51,7 @@ import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
 import com.opencapture.monitorui.MonitorIcon
+import com.opencapture.monitorui.l10n.Text
 private val ChromeShape = androidx.compose.foundation.shape.RoundedCornerShape(12.dp)
 private fun chromeStyle(size: Float, weight: FontWeight, mono: Boolean = false): TextStyle =
     if (mono) MonitorTypography.readout(size, weight) else MonitorTypography.text(size, weight)

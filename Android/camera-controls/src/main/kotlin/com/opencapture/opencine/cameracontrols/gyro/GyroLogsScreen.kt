@@ -27,7 +27,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.SwipeToDismissBox
 import androidx.compose.material3.SwipeToDismissBoxValue
-import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberSwipeToDismissBoxState
 import androidx.compose.runtime.Composable
@@ -59,6 +58,7 @@ import com.opencapture.monitorui.MonitorIcon
 import com.opencapture.monitorui.MonitorLinkHealth
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.gyro.GyroLogEntry
 import com.opencapture.opencine.gyro.GyroTakeStatus
 import java.time.Instant

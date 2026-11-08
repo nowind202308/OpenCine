@@ -33,7 +33,6 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
@@ -72,6 +71,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
 import androidx.lifecycle.findViewTreeLifecycleOwner
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.opencine.media.MediaTransferRate
 import com.opencapture.opencine.media.MonitorConformPreview
 import com.opencapture.opencine.media.MonitorPlaybackDeletionConfirmation

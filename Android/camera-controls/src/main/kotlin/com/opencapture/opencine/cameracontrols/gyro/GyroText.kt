@@ -1,7 +1,6 @@
 package com.opencapture.opencine.cameracontrols.gyro
 
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.heading
@@ -11,6 +10,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 
 // The text roles shared by every gyro screen: the gray overline above a title, the title itself and
 // the supporting body line. The fit-the-ring calibration screens and the logs and take screens use

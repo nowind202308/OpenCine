@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.material3.Text
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.Composable
@@ -30,6 +29,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.ui.unit.dp
 import com.opencapture.monitorui.*
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.settings.*
 import com.opencapture.opencine.appkit.*
 import com.opencapture.opencine.appkit.MonitorDisplaySection

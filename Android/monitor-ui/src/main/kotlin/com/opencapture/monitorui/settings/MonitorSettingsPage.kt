@@ -22,7 +22,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -52,6 +51,7 @@ import com.opencapture.monitorui.MonitorPageScaffold
 import com.opencapture.monitorui.MonitorPalette
 import com.opencapture.monitorui.MonitorTab
 import com.opencapture.monitorui.MonitorTypography
+import com.opencapture.monitorui.l10n.Text
 import com.opencapture.monitorui.monitorScrollFade
 import com.opencapture.monitorui.monitorTabStrip
 
